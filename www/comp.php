@@ -22,18 +22,21 @@ require_once (__DIR__ . '/../lib/func.php');
 require_once ( __DIR__ . '/../initialize.php');
 require_once ('Mail.php');
 
-//$name = $_POST['name'];
-//$mail = $_POST['mail'];
+$name = $_POST['name'];
+$mail = $_POST['mail'];
 
-$recipients = 'yuta@tsuruoka.me';
+$recipients = $mail;
 
-$headers['From']    = 'yurikokai@yurikokai.com';
-$headers['To']      = 'yuta@tsuruoka.me';
-$headers['Subject'] = 'テストメールを送信しました';
+$headers['From']    = 'yuta@apple.com';
+$headers['To']      = $mail;
+$headers['Subject'] = $name . 'さんにテストメールを送信しています。';
 
-$body = '鶴岡ユウタゆうた';
+$body = 'u2ppoテスト送信';
 
 $mail_object =& Mail::factory('sendmail');
 $mail_object->send($recipients, $headers, $body);
+
+$smarty->assign("name",$name);
+$smarty->assign("mail",$mail);
 
 $smarty->display('comp.tmp');

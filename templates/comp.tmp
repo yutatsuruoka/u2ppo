@@ -5,6 +5,7 @@
     <title></title>
 </head>
 <body>
+    {$name}の{$mail}に
     送信完了。
 </body>
 </html>

@@ -34,7 +34,7 @@
       <file leaf-file-name="index.tmp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.tmp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="19" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0">
+            <state line="9" column="59" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -43,7 +43,7 @@
       <file leaf-file-name="send.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/send.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="361" selection-end="408" vertical-scroll-proportion="0.0">
+            <state line="25" column="0" selection-start="410" selection-end="471" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#6#43#0" expanded="true" />
               </folding>
@@ -51,19 +51,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="send.tmp" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="send.tmp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/send.tmp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="35" selection-start="0" selection-end="498" vertical-scroll-proportion="0.0">
+            <state line="15" column="35" selection-start="362" selection-end="362" vertical-scroll-proportion="0.27842227">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="comp.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="comp.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/comp.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="8" selection-start="36" selection-end="36" vertical-scroll-proportion="0.09280743">
+            <state line="39" column="30" selection-start="807" selection-end="807" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#6#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="comp.tmp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/comp.tmp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="20" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -87,15 +98,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="comp.tmp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/comp.tmp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="7" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -111,13 +113,13 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/templates/addd.html" />
         <option value="$PROJECT_DIR$/templates/add.tmp" />
-        <option value="$PROJECT_DIR$/templates/index.tmp" />
-        <option value="$PROJECT_DIR$/templates/send.tmp" />
-        <option value="$PROJECT_DIR$/templates/comp.tmp" />
         <option value="$PROJECT_DIR$/www/send.php" />
         <option value="$PROJECT_DIR$/www/index.php" />
         <option value="$PROJECT_DIR$/initialize.php" />
+        <option value="$PROJECT_DIR$/templates/index.tmp" />
         <option value="$PROJECT_DIR$/www/comp.php" />
+        <option value="$PROJECT_DIR$/templates/comp.tmp" />
+        <option value="$PROJECT_DIR$/templates/send.tmp" />
       </list>
     </option>
   </component>
@@ -218,7 +220,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PublishConfig" serverName="u2ppo" serverId="4404b853-8a64-483c-a9eb-4c41a25916a7" autoUpload="true">
     <servers>
@@ -283,6 +289,24 @@
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <configuration useDefault="false">$USER_HOME$/.subversion_IDEA</configuration>
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="6217ae3c-4f25-4031-b4ce-c8dbc074b93d" name="Default" comment="" />
@@ -392,39 +416,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.tmp">
+    <entry file="file://$PROJECT_DIR$/initialize.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="19" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/send.tmp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="35" selection-start="0" selection-end="498" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/send.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="361" selection-end="408" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#6#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/comp.tmp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="7" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0">
+        <state line="6" column="0" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -436,16 +430,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/initialize.php">
+    <entry file="file://$PROJECT_DIR$/www/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0">
+        <state line="21" column="0" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.tmp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="59" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/comp.tmp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="20" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/comp.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="8" selection-start="36" selection-end="36" vertical-scroll-proportion="0.09280743">
+        <state line="39" column="30" selection-start="807" selection-end="807" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#6#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/send.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="410" selection-end="471" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#6#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/send.tmp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="35" selection-start="362" selection-end="362" vertical-scroll-proportion="0.27842227">
           <folding />
         </state>
       </provider>
