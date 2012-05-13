@@ -1,0 +1,7 @@
+AddHandler php5.3-script .php
+
+AuthUserFile /home/sites/heteml/users10/h/b/k/hbkr/web/u2ppo.com/.htpasswd
+AuthGroupFile /dev/null
+AuthName "U2PPO"
+AuthType Basic
+require valid-user

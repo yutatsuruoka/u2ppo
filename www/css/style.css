@@ -1,0 +1,160 @@
+
+		body {
+			margin:0;
+			padding:0;
+			color : #555;
+		}
+		h1 {
+		  font-family: 'Georgia';
+		  font-size:182%;
+		  margin:0;
+		  margin-top:15px;
+		}
+		h1 a,h1 a:hover,h1 a:link,h1 a:active,h1 a:visited {
+			text-decoration:none;
+		}
+		
+		h2 {
+			margin-top:0;
+			font-size:146.5%;
+		}
+		
+		h3 {
+			margin-top:0;
+			font-size:123.1%;
+			font-weight:normal;
+		}
+
+		.en {
+			font-family: 'Times New Roman';
+		}
+		.ja {
+			font-family: "Hiragino Mincho Pro", "ヒラギノ明朝 Pro W3", "ＭＳ 明朝"; 
+		}
+		
+		#head {
+			width:800px;
+			margin: 0 auto;
+		}
+		#head .hcopy {
+			margin-left:13px;
+			margin-top:-5px;
+			font-style:oblique;
+			font-size:85%;
+		}
+		#head .hcopy span {
+			background-color:#eee;
+		}
+		#head .menu {
+			text-align:right;
+			margin-top:10px;
+		}
+
+		#main {
+			width: 800px;
+			margin: 0 auto;
+			margin-top:20px;
+		}
+		
+		.ex {
+			padding-left:20px;
+		}
+		
+		
+		.ftab {
+			background-color:#efeeda;
+			margin:0 auto;
+			padding:10px;
+			width:420px;
+		}
+		.ftab2 {
+			margin:0 auto;
+			padding:0px;
+			width:420px;
+		}
+		.jumpstatus {
+			margin:0 auto;
+			width:420px;
+			text-align:right;
+			font-style:oblique;
+		}
+				
+		.ftab span {
+			font-size:85%;
+			margin-left:5px;
+		}
+		.cre {
+			margin-top:20px;
+		}
+		.inputtext {
+			width:400px;
+			font-size:174%;
+			margin:0;
+			margin-bottom:10px;
+			margin-top:3px;
+		}
+		.inputtext2 {
+			width:300px;
+			font-size:174%;
+			margin:0;
+			margin-bottom:10px;
+			margin-top:3px;
+		}
+		.inputimage {
+			display:block;
+			margin:0 auto;
+			margin-top:5px;
+		}
+		#option {
+			display:none;
+			margin-bottom:10px;
+		}
+		.disp_option {
+			text-align:right;
+			font-size:85%;
+		}
+		
+		
+		#footer {
+			width:600px;
+			margin: 0 auto;
+			margin-top: 40px;
+			padding:10px;
+			height: 30px;
+			text-align:center;
+			font-size:85%;
+		}
+
+a {
+    color: #237ac3;
+}
+
+a:link {
+    text-decoration: none;
+} 
+
+a:visited { 
+    color: #237ac3;
+    text-decoration: none;
+} 
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: #237ac3;
+} 
+
+
+input.submit {
+	color:#444;
+    font-size: 123.1%;
+    font-weight: bold;
+    padding: 0 10px 0 10px;
+    cursor: pointer;
+    display:block;
+	margin:0 auto;
+	margin-top:5px;
+}
+

@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <form name="form" action="/comp.php" method="post">
+        ユーザー名：<br />
+    {$name}
+        <br /><br />
+        メールアドレス：<br />
+    {$mail}
+        <br /><br />
+        <input type="hidden" name="name" value={$name}>
+        <input type="hidden" name="email" value={$mail}>
+        <input type="submit" value="申告する。"><br />
+        <a href="/user/add.php">変更する</a>
+</form>
+</body>
+</html>
