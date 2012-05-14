@@ -1,4 +1,25 @@
-<!doctype html>
+<?php /* Smarty version Smarty-3.1.8, created on 2012-05-15 04:42:42
+         compiled from "/home/sites/heteml/users10/h/b/k/hbkr/web/u2ppo.com/www/../templates/comp.tmp" */ ?>
+<?php /*%%SmartyHeaderCode:4469089914faf458a4ae082-85169782%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    'd5e88594e21d4af2f61cd3a3fd52e5e769569f9c' => 
+    array (
+      0 => '/home/sites/heteml/users10/h/b/k/hbkr/web/u2ppo.com/www/../templates/comp.tmp',
+      1 => 1337024395,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '4469089914faf458a4ae082-85169782',
+  'function' => 
+  array (
+  ),
+  'version' => 'Smarty-3.1.8',
+  'unifunc' => 'content_4faf458a4d73f6_04275232',
+  'has_nocache_code' => false,
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_4faf458a4d73f6_04275232')) {function content_4faf458a4d73f6_04275232($_smarty_tpl) {?><!doctype html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="jp"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="jp"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="jp"> <![endif]-->
@@ -34,7 +55,7 @@
 
 <header id="globalHeader" class="wrapper" role="header">
     <hgroup>
-        <h1><a href="/"><img src="i/logo.png" alt="U2plus"></a></h1>
+        <h1><img src="i/logo.png" alt="U2plus"></h1>
         <h2><img src="i/caption.png" alt="うつ通知サービス“うつっぽ”もしかしたら、自分の思いちがいかも。でも、１通のメールで、あの人をまもれるかもしれない。"></h2>
     </hgroup>
     <!--
@@ -54,37 +75,16 @@
 
 <div class="formContainer mgb100">
     <div class="innerContents wrapper clearfix">
-        <p class="pushText font24 mgb30">入力内容は合っていますか？<br>
-            間違いが無ければ、うつっぽを使って相手にお知らせを送りましょう。</p>
-        <form name="form" action="/comp.php" method="post">
-        	<div class="dammyContainer clearfix">
-            <dl class="dammy">
-                <dt><label for=""><img src="i/label_name.png" alt="あいての名前"></label></dt>
-                <dd class="input"><%$name%></dd>
-            </dl>
-            <dl class="dammy">
-                <dt><label for=""><img src="i/label_email.png" alt="あいてのメールアドレス"></label></dt>
-                <dd class="input"><%$mail%></dd>
-            </dl>
-            <dl class="dammy">
-                <dt><label for=""><img src="i/label_relation.png" alt="あいてとのかんけい"></label></dt>
-                <dd class="type"><%$type%></dd>
-            </dl>
-            </div>
-		    <input type="hidden" name="name" value=<%$name%>>
-		    <input type="hidden" name="mail" value=<%$mail%>>
-		    <input type="hidden" name="type" value=<%$type%>>
-            <input class="submitBtn finishBtn onMouseOver" type="image" src="i/btn_submit.png">
-        </form>
+        <p class="pushText font24 mgb30"><br>
+            送信完了しました!!<br>
+            有難うございます。</p>
+            <div class="choiceBtn">
+            <ul class="clearfix">
+                <li class="pull-left mgr20"><a href="https://twitter.com/intent/tweet?hashtags=u2ppo&original_referer=http%3A%2F%2Fu2ppo.com%2Fusers%2Fthankyou&source=tweetbutton&text=【うつ通知サービス“うつっぽ”】もしかしたら、自分の思いちがいかも。でも、１通のメールで、あの人をまもれるかもしれない。&url=http%3A%2F%2Fhttp://u2ppo.com/%2F"><img src="i/share_tw.png"></a></li>
+                <li class="pull-left"><a href="http://www.facebook.com/sharer.php?u=http://u2ppo.com/&t=うつ通知サービス“うつっぽ”"><img src="i/share_fb.png"></a></li>
+            </ul>
+        </div>
     </div>
-</div>
-
-
-<div class="mailSample wrapper">
-    <h1 class="font24 color mgb20">メール画面サンプル</h1>
-    <p class="mgb20">うつっぽのメールは完全匿名にて送信されますので、相手にあなたの名前が知れる事はありません。<br>
-        あなたの大切な人を、こっそりとサポートしてあげる事ができます。</p>
-    <img src="i/mail_sample.png" alt="メール画面サンプル">
 </div>
 
 
@@ -116,4 +116,4 @@
 
 </script>
 </body>
-</html>
+</html><?php }} ?>

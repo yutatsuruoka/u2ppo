@@ -1,4 +1,31 @@
-<!doctype html>
+<?php /* Smarty version Smarty-3.1.8, created on 2012-05-15 04:47:00
+         compiled from "/home/sites/heteml/users10/h/b/k/hbkr/web/u2ppo.com/www/../templates/send.tmp" */ ?>
+<?php /*%%SmartyHeaderCode:10611751724faf3fd6adfb68-11180323%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '817d99b0f69a17c8eb0a227eca04be576abde414' => 
+    array (
+      0 => '/home/sites/heteml/users10/h/b/k/hbkr/web/u2ppo.com/www/../templates/send.tmp',
+      1 => 1337024775,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '10611751724faf3fd6adfb68-11180323',
+  'function' => 
+  array (
+  ),
+  'version' => 'Smarty-3.1.8',
+  'unifunc' => 'content_4faf3fd6b0f4e9_30449674',
+  'variables' => 
+  array (
+    'name' => 0,
+    'mail' => 0,
+    'type' => 0,
+  ),
+  'has_nocache_code' => false,
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_4faf3fd6b0f4e9_30449674')) {function content_4faf3fd6b0f4e9_30449674($_smarty_tpl) {?><!doctype html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="jp"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="jp"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="jp"> <![endif]-->
@@ -60,20 +87,26 @@
         	<div class="dammyContainer clearfix">
             <dl class="dammy">
                 <dt><label for=""><img src="i/label_name.png" alt="あいての名前"></label></dt>
-                <dd class="input"><%$name%></dd>
+                <dd class="input"><?php echo $_smarty_tpl->tpl_vars['name']->value;?>
+</dd>
             </dl>
             <dl class="dammy">
                 <dt><label for=""><img src="i/label_email.png" alt="あいてのメールアドレス"></label></dt>
-                <dd class="input"><%$mail%></dd>
+                <dd class="input"><?php echo $_smarty_tpl->tpl_vars['mail']->value;?>
+</dd>
             </dl>
             <dl class="dammy">
                 <dt><label for=""><img src="i/label_relation.png" alt="あいてとのかんけい"></label></dt>
-                <dd class="type"><%$type%></dd>
+                <dd class="type"><?php echo $_smarty_tpl->tpl_vars['type']->value;?>
+</dd>
             </dl>
             </div>
-		    <input type="hidden" name="name" value=<%$name%>>
-		    <input type="hidden" name="mail" value=<%$mail%>>
-		    <input type="hidden" name="type" value=<%$type%>>
+		    <input type="hidden" name="name" value=<?php echo $_smarty_tpl->tpl_vars['name']->value;?>
+>
+		    <input type="hidden" name="mail" value=<?php echo $_smarty_tpl->tpl_vars['mail']->value;?>
+>
+		    <input type="hidden" name="type" value=<?php echo $_smarty_tpl->tpl_vars['type']->value;?>
+>
             <input class="submitBtn finishBtn onMouseOver" type="image" src="i/btn_submit.png">
         </form>
     </div>
@@ -116,4 +149,4 @@
 
 </script>
 </body>
-</html>
+</html><?php }} ?>

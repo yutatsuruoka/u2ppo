@@ -1,4 +1,25 @@
-<!doctype html>
+<?php /* Smarty version Smarty-3.1.8, created on 2012-05-15 01:59:13
+         compiled from "/home/sites/heteml/users10/h/b/k/hbkr/web/u2ppo.com/www/../templates/confirm.tmp" */ ?>
+<?php /*%%SmartyHeaderCode:1137747934fb126b5f12b84-44192558%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    'fc593b53e048ebd932740f813e6e997a775dbcc9' => 
+    array (
+      0 => '/home/sites/heteml/users10/h/b/k/hbkr/web/u2ppo.com/www/../templates/confirm.tmp',
+      1 => 1337014749,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '1137747934fb126b5f12b84-44192558',
+  'function' => 
+  array (
+  ),
+  'version' => 'Smarty-3.1.8',
+  'unifunc' => 'content_4fb126b6002d53_16628258',
+  'has_nocache_code' => false,
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_4fb126b6002d53_16628258')) {function content_4fb126b6002d53_16628258($_smarty_tpl) {?><!doctype html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="jp"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="jp"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="jp"> <![endif]-->
@@ -8,15 +29,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>うつ通知サービス“うつっぽ”</title>
     <meta name="description" content="うつ通知サービス“うつっぽ”もしかしたら、自分の思いちがいかも。でも、１通のメールで、あの人をまもれるかもしれない。">
-    <meta name="keywords" content="u2ppo">
+    <meta name="keywords" content="liverty">
     <meta name="viewport" content="width=device-width">
     <meta property="og:title" content="うつ通知サービス“うつっぽ”もしかしたら、自分の思いちがいかも。でも、１通のメールで、あの人をまもれるかもしれない。">
-    <meta property="og:site_name" content="うつ通知サービス | うつっぽ" />
-    <meta property="og:description" content="もしかしたら、自分の思いちがいかも。でも、１通のメールで、あの人をまもれるかもしれない。うつ通知サービス“うつっぽ">
-    <meta property="og:url" content="http://u2ppo.com/">
-    <meta property="og:image" content="http://u2ppo.com/i/ogimage.png">
+    <meta property="og:site_name" content="liverty | Live in liberty." />
+    <meta property="og:description" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <meta property="og:image" content="">
+    <meta property="og:image" content="">
+    <meta property="og:image" content="">
     <meta property="og:type" content="website" />
-    <meta property="fb:app_id" content="364897396902078" />
+    <meta property="fb:app_id" content="150394821758169" />
     <link rel="stylesheet" href="c/style.css">
     <script src="j/modernizr-2.5.3.min.js"></script>
 </head>
@@ -54,24 +78,9 @@
 
 <div class="formContainer mgb100">
     <div class="innerContents wrapper clearfix">
-        <p class="pushText font24 mgb30">入力内容にミスがあった様です！<br>
-            もう１度入力内容を確認して、そうしんボタンを押して下さい。<br>
-            あなたの１通が、きっと相手を救うでしょう。</p>
-        <form action="/send.php" method="post">
-            <dl>
-                <dt><label for=""><img src="i/label_name.png" alt="あいての名前"></label></dt>
-                <dd><input type="text" name="name"></dd>
-            </dl>
-            <dl>
-                <dt><label for=""><img src="i/label_email.png" alt="あいてのメールアドレス"></label></dt>
-                <dd><input type="email" name="mail"></dd>
-            </dl>
-            <dl class="relation">
-                <dt><label for=""><img src="i/label_relation.png" alt="あいてとのかんけい"></label></dt>
-                <dd><input type="text" name="type"></dd>
-            </dl>
-            <input class="submitBtn onMouseOver" type="image" src="i/btn_submit.png">
-        </form>
+        <p class="pushText font24 mgb30">申し訳ございませんが<br>
+            投稿は180秒に１回しかできません。<br>
+            次のご報告はしばらくたってからご利用ください。</p>
     </div>
 </div>
 
@@ -166,17 +175,16 @@
 <script>window.jQuery || document.write('<script src="j/jquery-1.7.1.min.js"><\/script>')</script>
 <script src="j/script.js"></script>
 <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-23653112-14']);
+    _gaq.push(['_trackPageview']);
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-23653112-15']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
 </script>
 </body>
 </html>
+<?php }} ?>

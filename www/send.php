@@ -43,7 +43,7 @@ if($_SESSION['time']){
     }
 }
 
-//メールアドレス正規表現
+//メールアドレス正規表現※IE用
 $email = $_POST['mail'];
 if (!preg_match('/^[^0-9][a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[@][a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{2,4}$/',$email)) {
     header("HTTP/1.1 301 Moved Permanently");

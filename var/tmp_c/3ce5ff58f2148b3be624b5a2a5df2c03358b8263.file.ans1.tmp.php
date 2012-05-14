@@ -1,4 +1,25 @@
-<!doctype html>
+<?php /* Smarty version Smarty-3.1.8, created on 2012-05-15 04:48:36
+         compiled from "/home/sites/heteml/users10/h/b/k/hbkr/web/u2ppo.com/www/../templates/ans1.tmp" */ ?>
+<?php /*%%SmartyHeaderCode:11654762774fb10700afe174-48009804%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '3ce5ff58f2148b3be624b5a2a5df2c03358b8263' => 
+    array (
+      0 => '/home/sites/heteml/users10/h/b/k/hbkr/web/u2ppo.com/www/../templates/ans1.tmp',
+      1 => 1337024438,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '11654762774fb10700afe174-48009804',
+  'function' => 
+  array (
+  ),
+  'version' => 'Smarty-3.1.8',
+  'unifunc' => 'content_4fb10700b2b0b7_31814872',
+  'has_nocache_code' => false,
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_4fb10700b2b0b7_31814872')) {function content_4fb10700b2b0b7_31814872($_smarty_tpl) {?><!doctype html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="jp"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="jp"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="jp"> <![endif]-->
@@ -32,11 +53,10 @@
     fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
-<header id="globalHeader" class="wrapper" role="header">
-    <hgroup>
-        <h1><a href="/"><img src="i/logo.png" alt="U2plus"></a></h1>
-        <h2><img src="i/caption.png" alt="うつ通知サービス“うつっぽ”もしかしたら、自分の思いちがいかも。でも、１通のメールで、あの人をまもれるかもしれない。"></h2>
-    </hgroup>
+<header id="checkHeader" class="mgb50" role="header">
+    <div class="innerContents wrapper">
+        <h1><a href="/"><img src="i/stresscheck_keyvisual02.png" alt="ストレスチェック"></a></h1>
+    </div>
     <!--
   <div class="headerContents ">
     <aside class="snsContainer clearfix">
@@ -52,44 +72,55 @@
     -->
 </header>
 
-<div class="formContainer mgb100">
-    <div class="innerContents wrapper clearfix">
-        <p class="pushText font24 mgb30">入力内容は合っていますか？<br>
-            間違いが無ければ、うつっぽを使って相手にお知らせを送りましょう。</p>
-        <form name="form" action="/comp.php" method="post">
-        	<div class="dammyContainer clearfix">
-            <dl class="dammy">
-                <dt><label for=""><img src="i/label_name.png" alt="あいての名前"></label></dt>
-                <dd class="input"><%$name%></dd>
-            </dl>
-            <dl class="dammy">
-                <dt><label for=""><img src="i/label_email.png" alt="あいてのメールアドレス"></label></dt>
-                <dd class="input"><%$mail%></dd>
-            </dl>
-            <dl class="dammy">
-                <dt><label for=""><img src="i/label_relation.png" alt="あいてとのかんけい"></label></dt>
-                <dd class="type"><%$type%></dd>
-            </dl>
-            </div>
-		    <input type="hidden" name="name" value=<%$name%>>
-		    <input type="hidden" name="mail" value=<%$mail%>>
-		    <input type="hidden" name="type" value=<%$type%>>
-            <input class="submitBtn finishBtn onMouseOver" type="image" src="i/btn_submit.png">
-        </form>
+
+<div class="checkResult wrapper">
+    <p class="mgb50">診断結果は下記の通りです！<br>
+        ５点以上だった方はうつ病予備軍の可能性があります。<br>
+        リンク先を参考に、早期の対処をしていきましょう！</p>
+
+    <div class="resultPoint mgb100">
+        <img class="mgb20" src="i/check_point01.png" alt="0点〜4点">
+        <p>あなたは正常レベルです！まだまだ元気な様子ですね！<br>
+            息抜きや楽しい時間をしっかりと確保しながら、そのまま今の生活を持続していきましょう♩</p>
     </div>
+
+    <section id="if01" class="wrapper mgb100">
+        <header class="mgb30 clearfix">
+            <div class="iconBlock pull-left">
+                <img src="i/icon_if.png" alt="">
+            </div>
+            <div class="textBlock pull-right">
+                <h1 class="mgt20 mgb15 font24 lineheight150">もし現実的な悩みや問題を抱えていたら、<br>
+                    下記のリンクを参考にしてみて下さい。</h1>
+            </div>
+        </header>
+        <ul class="column3 mgb50">
+            <li>
+                <h2 class="color font18 mgb15">『TEL』よりそいホットライン</h2>
+                <p>仕事、生活、家庭、心、お金、病気の悩み、DVや性暴力、セクシャルマイノリティ、自殺など色々な問題について、電話相談員が一緒に解決方法を考えてくれます。音声ガイダンスに従い、自分にぴったり合う相談内容を選んで下さい<br>
+                    <span class="color">0120 - 279 - 338</span>
+                </p>
+            </li>
+            <li>
+                <h2 class="color font18 mgb15">そのあとに起こること。</h2>
+                <p>家族を亡くした時、犯罪被害にあったときなどの悩みの内容、地域や営業時間など、支援組織をインターネットで検索する事ができます。<br><span><a href="http://monosp.com/" target="_blank">http://monosp.com/</a></span></p>
+            </li>
+            <li>
+                <h2 class="color font18 mgb15">周囲との関係で変わること。</h2>
+                <p>会話の内容がつらいことばかりになり、楽しい時間を共有できなくなくなりがちです。体調によって急に予定を変えたくなるので、気分屋に見えたりも。怒りっぽくなったり、依存的になったりすることもあります。<br><span><a href="http://monosp.com/" target="_blank">http://monosp.com/</a></span></p>
+            </li>
+        </ul>
+        <div>
+            <h2 class="color font18 mgb15">『TEL』『対面』総合労働相談</h2>
+            <p>労働に関する問題の、厚生労働省によるワンストップサービスです。<br>
+                労働条件、いじめや嫌がらせ、募集・採用など、労働問題に関するあらゆる分野の問題の相談を、面接もしくは電話で受けてくれます。</p>
+            <a href="" target="_blank">http://monosp.com/</a>
+        </div>
+    </section>
 </div>
 
-
-<div class="mailSample wrapper">
-    <h1 class="font24 color mgb20">メール画面サンプル</h1>
-    <p class="mgb20">うつっぽのメールは完全匿名にて送信されますので、相手にあなたの名前が知れる事はありません。<br>
-        あなたの大切な人を、こっそりとサポートしてあげる事ができます。</p>
-    <img src="i/mail_sample.png" alt="メール画面サンプル">
-</div>
-
-
-<footer class="wrapper">
-    <div class="innerContents clearfix">
+<footer id="checkFooter">
+    <div class="innerContents wrapper clearfix">
         <ul class="pull-left clearfix">
             <li><a href="http://u2plus.co.jp/" target="_blank">運営会社</a><span>|</span></li>
             <li><a href="http://u2plus.jp/contact" target="_blank">お問い合わせ</a><span>|</span></li>
@@ -117,3 +148,4 @@
 </script>
 </body>
 </html>
+<?php }} ?>

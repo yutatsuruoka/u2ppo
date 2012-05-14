@@ -1,4 +1,29 @@
-<!doctype html>
+<?php /* Smarty version Smarty-3.1.8, created on 2012-05-15 04:45:53
+         compiled from "/home/sites/heteml/users10/h/b/k/hbkr/web/u2ppo.com/www/../templates/test.tmp" */ ?>
+<?php /*%%SmartyHeaderCode:14221531454fb101ecd0e5c0-60429210%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    'debee0ff6ab55ee7fcb1f36a727698b8e377cabb' => 
+    array (
+      0 => '/home/sites/heteml/users10/h/b/k/hbkr/web/u2ppo.com/www/../templates/test.tmp',
+      1 => 1337024413,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '14221531454fb101ecd0e5c0-60429210',
+  'function' => 
+  array (
+  ),
+  'version' => 'Smarty-3.1.8',
+  'unifunc' => 'content_4fb101ecd41a27_02415207',
+  'variables' => 
+  array (
+    'error' => 0,
+  ),
+  'has_nocache_code' => false,
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_4fb101ecd41a27_02415207')) {function content_4fb101ecd41a27_02415207($_smarty_tpl) {?><!doctype html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="jp"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="jp"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="jp"> <![endif]-->
@@ -50,9 +75,10 @@
   </div>
     -->
 </header>
-<%if ($error)%>
-    <div class="wrapper errorNotification mgb30"><%$error%></div>
-<%/if%>
+<?php if (($_smarty_tpl->tpl_vars['error']->value)){?>
+    <div class="wrapper errorNotification mgb30"><?php echo $_smarty_tpl->tpl_vars['error']->value;?>
+</div>
+<?php }?>
 <div class="checkBlock wrapper mgb100">
     <form action="/answer.php" method="post">
         <p class="mgb50">過去１ヶ月、あなたがどの様に感じていたかについておたずねします。<br>
@@ -146,3 +172,4 @@
 </script>
 </body>
 </html>
+<?php }} ?>

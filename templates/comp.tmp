@@ -8,18 +8,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>うつ通知サービス“うつっぽ”</title>
     <meta name="description" content="うつ通知サービス“うつっぽ”もしかしたら、自分の思いちがいかも。でも、１通のメールで、あの人をまもれるかもしれない。">
-    <meta name="keywords" content="liverty">
+    <meta name="keywords" content="u2ppo">
     <meta name="viewport" content="width=device-width">
     <meta property="og:title" content="うつ通知サービス“うつっぽ”もしかしたら、自分の思いちがいかも。でも、１通のメールで、あの人をまもれるかもしれない。">
-    <meta property="og:site_name" content="liverty | Live in liberty." />
-    <meta property="og:description" content="">
-    <meta property="og:url" content="">
-    <meta property="og:image" content="">
-    <meta property="og:image" content="">
-    <meta property="og:image" content="">
-    <meta property="og:image" content="">
+    <meta property="og:site_name" content="うつ通知サービス | うつっぽ" />
+    <meta property="og:description" content="もしかしたら、自分の思いちがいかも。でも、１通のメールで、あの人をまもれるかもしれない。うつ通知サービス“うつっぽ">
+    <meta property="og:url" content="http://u2ppo.com/">
+    <meta property="og:image" content="http://u2ppo.com/i/ogimage.png">
     <meta property="og:type" content="website" />
-    <meta property="fb:app_id" content="150394821758169" />
+    <meta property="fb:app_id" content="364897396902078" />
     <link rel="stylesheet" href="c/style.css">
     <script src="j/modernizr-2.5.3.min.js"></script>
 </head>
@@ -60,6 +57,12 @@
         <p class="pushText font24 mgb30"><br>
             送信完了しました!!<br>
             有難うございます。</p>
+            <div class="choiceBtn">
+            <ul class="clearfix">
+                <li class="pull-left mgr20"><a href="https://twitter.com/intent/tweet?hashtags=u2ppo&original_referer=http%3A%2F%2Fu2ppo.com%2Fusers%2Fthankyou&source=tweetbutton&text=【うつ通知サービス“うつっぽ”】もしかしたら、自分の思いちがいかも。でも、１通のメールで、あの人をまもれるかもしれない。&url=http%3A%2F%2Fhttp://u2ppo.com/%2F"><img src="i/share_tw.png"></a></li>
+                <li class="pull-left"><a href="http://www.facebook.com/sharer.php?u=http://u2ppo.com/&t=うつ通知サービス“うつっぽ”"><img src="i/share_fb.png"></a></li>
+            </ul>
+        </div>
     </div>
 </div>
 
@@ -79,15 +82,17 @@
 <script>window.jQuery || document.write('<script src="j/jquery-1.7.1.min.js"><\/script>')</script>
 <script src="j/script.js"></script>
 <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-23653112-14']);
-    _gaq.push(['_trackPageview']);
 
-    (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-23653112-15']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
 </script>
 </body>
 </html>

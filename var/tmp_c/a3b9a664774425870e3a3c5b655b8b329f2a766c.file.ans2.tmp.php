@@ -1,4 +1,25 @@
-<!doctype html>
+<?php /* Smarty version Smarty-3.1.8, created on 2012-05-15 03:40:15
+         compiled from "/home/sites/heteml/users10/h/b/k/hbkr/web/u2ppo.com/www/../templates/ans2.tmp" */ ?>
+<?php /*%%SmartyHeaderCode:2707891654fb1082538c167-83165757%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    'a3b9a664774425870e3a3c5b655b8b329f2a766c' => 
+    array (
+      0 => '/home/sites/heteml/users10/h/b/k/hbkr/web/u2ppo.com/www/../templates/ans2.tmp',
+      1 => 1337014607,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '2707891654fb1082538c167-83165757',
+  'function' => 
+  array (
+  ),
+  'version' => 'Smarty-3.1.8',
+  'unifunc' => 'content_4fb108253bb6f6_78581693',
+  'has_nocache_code' => false,
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_4fb108253bb6f6_78581693')) {function content_4fb108253bb6f6_78581693($_smarty_tpl) {?><!doctype html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="jp"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="jp"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="jp"> <![endif]-->
@@ -8,15 +29,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>うつ通知サービス“うつっぽ”</title>
     <meta name="description" content="うつ通知サービス“うつっぽ”もしかしたら、自分の思いちがいかも。でも、１通のメールで、あの人をまもれるかもしれない。">
-    <meta name="keywords" content="u2ppo">
+    <meta name="keywords" content="liverty">
     <meta name="viewport" content="width=device-width">
     <meta property="og:title" content="うつ通知サービス“うつっぽ”もしかしたら、自分の思いちがいかも。でも、１通のメールで、あの人をまもれるかもしれない。">
-    <meta property="og:site_name" content="うつ通知サービス | うつっぽ" />
-    <meta property="og:description" content="もしかしたら、自分の思いちがいかも。でも、１通のメールで、あの人をまもれるかもしれない。うつ通知サービス“うつっぽ">
-    <meta property="og:url" content="http://u2ppo.com/">
-    <meta property="og:image" content="http://u2ppo.com/i/ogimage.png">
+    <meta property="og:site_name" content="liverty | Live in liberty." />
+    <meta property="og:description" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <meta property="og:image" content="">
+    <meta property="og:image" content="">
+    <meta property="og:image" content="">
     <meta property="og:type" content="website" />
-    <meta property="fb:app_id" content="364897396902078" />
+    <meta property="fb:app_id" content="150394821758169" />
     <link rel="stylesheet" href="c/style.css">
     <script src="j/modernizr-2.5.3.min.js"></script>
 </head>
@@ -58,11 +82,37 @@
         リンク先を参考に、早期の対処をしていきましょう！</p>
 
     <div class="resultPoint mgb100">
-        <img class="mgb20" src="i/check_point01.png" alt="0点〜4点">
-        <p>あなたは正常レベルです！まだまだ元気な様子ですね！<br>
-            息抜きや楽しい時間をしっかりと確保しながら、そのまま今の生活を持続していきましょう♩</p>
+        <img class="mgb20" src="i/check_point02.png" alt="5点〜9点">
+        <p>うつ、あるいは不安の注意報５０%の確立です。<br>
+            休日は気晴らしの外出よりも、ゆっくりお休みした方がいいかもしれません。<br>
+            うつの予防をするサービスを利用したり、うつの知識を得ておくと良いかもしれませんね。</p>
     </div>
-
+    <section id="a01" class="wrapper mgb100">
+        <header class="mgb30 clearfix">
+            <div class="iconBlock pull-left">
+                <img src="i/icon_a.png" alt="">
+            </div>
+            <div class="textBlock pull-right">
+                <h1 class="mgt20 mgb15 font24 lineheight150">あなたにオススメなリンク先を掲載します<br>うつ病気の早期改善にお役立て下さい。</h1>
+            </div>
+        </header>
+        <ul class="column3 mgb50">
+            <li>
+                <h2 class="color font18 mgb15">『予防』ストレスコーピングまとめ</h2>
+                <p>ストレスをうまく緩和させる方法があります。あなたに合ったものを選んで、試してみるといいかもしれません。<br><br>
+                    <span><a href="" target="_blank">http://monosp.com/</a></span>
+                </p>
+            </li>
+            <li>
+                <h2 class="color font18 mgb15">『予防』うつの予防と回復をサポート</h2>
+                <p>U2plus運営の元、科学的に根拠のある「認知行動療法」をみんなで行うサイトです。楽しめたこと、できたことを記録して、うつの予防効果が期待できます。<br><span><a href="http://monosp.com/" target="_blank">http://monosp.com/</a></span></p>
+            </li>
+            <li>
+                <h2 class="color font18 mgb15">『知識』All about うつ病ページ</h2>
+                <p>うつの症状はどんなものか。どの様にして回復するのか。大まかな知識を知っておくと今後に役立つかもしれません。<br><br><span><a href="http://monosp.com/" target="_blank">http://monosp.com/</a></span></p>
+            </li>
+        </ul>
+    </section>
     <section id="if01" class="wrapper mgb100">
         <header class="mgb30 clearfix">
             <div class="iconBlock pull-left">
@@ -81,18 +131,17 @@
                 </p>
             </li>
             <li>
-                <h2 class="color font18 mgb15">そのあとに起こること。</h2>
-                <p>家族を亡くした時、犯罪被害にあったときなどの悩みの内容、地域や営業時間など、支援組織をインターネットで検索する事ができます。<br><span><a href="http://monosp.com/" target="_blank">http://monosp.com/</a></span></p>
+                <h2 class="color font18 mgb15">『WEB』命とくらしの相談ナビ</h2>
+                <p>家族を亡くした時、犯罪被害にあったときなどの悩みの内容、地域や営業時間など、支援組織をインターネットで検索する事ができます。<br><br><span><a href="http://monosp.com/" target="_blank">http://monosp.com/</a></span></p>
             </li>
             <li>
-                <h2 class="color font18 mgb15">周囲との関係で変わること。</h2>
-                <p>会話の内容がつらいことばかりになり、楽しい時間を共有できなくなくなりがちです。体調によって急に予定を変えたくなるので、気分屋に見えたりも。怒りっぽくなったり、依存的になったりすることもあります。<br><span><a href="http://monosp.com/" target="_blank">http://monosp.com/</a></span></p>
+                <h2 class="color font18 mgb15">『対面』法テラス</h2>
+                <p>借金、離婚などの法的トラブルを抱えてしまったとき、こうした問題解決への「道案内」をするのが法テラスです。無料相談や弁護士費用の立て替えも行っています。<br><span><a href="http://monosp.com/" target="_blank">http://monosp.com/</a></span></p>
             </li>
         </ul>
         <div>
             <h2 class="color font18 mgb15">『TEL』『対面』総合労働相談</h2>
-            <p>労働に関する問題の、厚生労働省によるワンストップサービスです。<br>
-                労働条件、いじめや嫌がらせ、募集・採用など、労働問題に関するあらゆる分野の問題の相談を、面接もしくは電話で受けてくれます。</p>
+            <p>労働に関する問題の、厚生労働省によるワンストップサービスです。<br>労働条件、いじめや嫌がらせ、募集・採用など、労働問題に関するあらゆる分野の問題の相談を、面接もしくは電話で受けてくれます。</p>
             <a href="" target="_blank">http://monosp.com/</a>
         </div>
     </section>
@@ -113,17 +162,15 @@
 <script>window.jQuery || document.write('<script src="j/jquery-1.7.1.min.js"><\/script>')</script>
 <script src="j/script.js"></script>
 <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-23653112-14']);
+    _gaq.push(['_trackPageview']);
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-23653112-15']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
 </script>
 </body>
-</html>
+</html><?php }} ?>

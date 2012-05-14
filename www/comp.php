@@ -38,9 +38,8 @@ if($_SESSION['time']){
     $post = time() - $_SESSION['time'];
     if($post <= 180){
         //投稿NGページヘ
-        $_SESSION['ng'] = 1;
         header("HTTP/1.1 301 Moved Permanently");
-        header("Location: http://u2ppo.com/confirm.php");
+        header("Location: http://u2ppo.com/");
         exit();
     }
 }
@@ -51,12 +50,12 @@ $type = htmlspecialchars($_POST['type']);
 
 $recipients = $mail;
 
-$headers['From']    = '"うつ通知サービス" < noreply@u2ppo.com >';
+$headers['From']    = 'u2plus@u2ppo.com';
 $headers['To']      = $mail;
-$headers['Subject'] = 'うつ通知サービス“うつっぽ”からのご連絡です。';
+$headers['Subject'] = mb_encode_mimeheader('うつ通知サービス“うつっぽ”からのご連絡です。', "ISO-2022-JP", "auto");
 
 $body = $name . 'さんへ、
-あなたのお知り合い様より「うつっぽ」（ http://hogehoge.info/ ）にて
+あなたのお知り合い様より「うつっぽ」（ http://u2ppo.com/ ）にて
 メッセージをお預かりしております。最後まで、落ち着いてお読みください。
 
 ==============================
@@ -65,6 +64,9 @@ $body = $name . 'さんへ、
 気のせいならいいのですが、' . $type . 'として、どうしても心配なことがあるんです。
 わたしが最近のあなたをみていると、ストレスをため込んでいるように見えます。すこし無理をしていませんか？
 思い過ごしならいいのですが、すこしリラックスされるといいのかな、と感じています。
+
+★うつ度チェックをしてみる★
+http://u2ppo.com/check.php
 
 ==============================
 

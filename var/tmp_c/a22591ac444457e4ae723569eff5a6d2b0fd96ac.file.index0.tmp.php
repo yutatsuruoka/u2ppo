@@ -1,4 +1,25 @@
-<!doctype html>
+<?php /* Smarty version Smarty-3.1.8, created on 2012-05-14 19:14:45
+         compiled from "/home/sites/heteml/users10/h/b/k/hbkr/web/u2ppo.com/www/../templates/index0.tmp" */ ?>
+<?php /*%%SmartyHeaderCode:2272330794fb0cd5e17f083-79407130%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    'a22591ac444457e4ae723569eff5a6d2b0fd96ac' => 
+    array (
+      0 => '/home/sites/heteml/users10/h/b/k/hbkr/web/u2ppo.com/www/../templates/index0.tmp',
+      1 => 1336990090,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '2272330794fb0cd5e17f083-79407130',
+  'function' => 
+  array (
+  ),
+  'version' => 'Smarty-3.1.8',
+  'unifunc' => 'content_4fb0cd5e1b43e5_31408839',
+  'has_nocache_code' => false,
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_4fb0cd5e1b43e5_31408839')) {function content_4fb0cd5e1b43e5_31408839($_smarty_tpl) {?><!doctype html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="jp"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="jp"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="jp"> <![endif]-->
@@ -8,15 +29,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>うつ通知サービス“うつっぽ”</title>
     <meta name="description" content="うつ通知サービス“うつっぽ”もしかしたら、自分の思いちがいかも。でも、１通のメールで、あの人をまもれるかもしれない。">
-    <meta name="keywords" content="u2ppo">
+    <meta name="keywords" content="liverty">
     <meta name="viewport" content="width=device-width">
     <meta property="og:title" content="うつ通知サービス“うつっぽ”もしかしたら、自分の思いちがいかも。でも、１通のメールで、あの人をまもれるかもしれない。">
-    <meta property="og:site_name" content="うつ通知サービス | うつっぽ" />
-    <meta property="og:description" content="もしかしたら、自分の思いちがいかも。でも、１通のメールで、あの人をまもれるかもしれない。うつ通知サービス“うつっぽ">
-    <meta property="og:url" content="http://u2ppo.com/">
-    <meta property="og:image" content="http://u2ppo.com/i/ogimage.png">
+    <meta property="og:site_name" content="liverty | Live in liberty." />
+    <meta property="og:description" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <meta property="og:image" content="">
+    <meta property="og:image" content="">
+    <meta property="og:image" content="">
     <meta property="og:type" content="website" />
-    <meta property="fb:app_id" content="364897396902078" />
+    <meta property="fb:app_id" content="150394821758169" />
     <link rel="stylesheet" href="c/style.css">
     <script src="j/modernizr-2.5.3.min.js"></script>
 </head>
@@ -34,29 +58,26 @@
 
 <header id="globalHeader" class="wrapper" role="header">
     <hgroup>
-        <h1><a href="/"><img src="i/logo.png" alt="U2plus"></a></h1>
+        <h1><img src="i/logo.png" alt="U2plus"></h1>
         <h2><img src="i/caption.png" alt="うつ通知サービス“うつっぽ”もしかしたら、自分の思いちがいかも。でも、１通のメールで、あの人をまもれるかもしれない。"></h2>
     </hgroup>
     <!--
-  <div class="headerContents ">
-    <aside class="snsContainer clearfix">
-    <div class="snsButton pull-right">
-      <fb:like href="https://www.facebook.com/liverty.jp" send="false" layout="button_count" width="100" show_faces="false" font="verdana" data-content="組織も、働き方も、生き方も、２１世紀型にアップデートしようぜ！ - liverty | Live in liberty. 自由に生きろ"></fb:like>
-    </div>
-    <div class="snsButton pull-right">
-      <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://liverty.jp/" data-text="" data-hashtags="liverty">Tweet</a>
-      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-    </div>
-    </aside>
+<div class="headerContents ">
+  <aside class="snsContainer clearfix">
+  <div class="snsButton pull-right">
+    <fb:like href="https://www.facebook.com/liverty.jp" send="false" layout="button_count" width="100" show_faces="false" font="verdana" data-content="組織も、働き方も、生き方も、２１世紀型にアップデートしようぜ！ - liverty | Live in liberty. 自由に生きろ"></fb:like>
   </div>
-    -->
+  <div class="snsButton pull-right">
+    <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://liverty.jp/" data-text="" data-hashtags="liverty">Tweet</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+  </div>
+  </aside>
+</div>
+  -->
 </header>
 
 <div class="formContainer mgb100">
     <div class="innerContents wrapper clearfix">
-        <p class="pushText font24 mgb30">入力内容にミスがあった様です！<br>
-            もう１度入力内容を確認して、そうしんボタンを押して下さい。<br>
-            あなたの１通が、きっと相手を救うでしょう。</p>
         <form action="/send.php" method="post">
             <dl>
                 <dt><label for=""><img src="i/label_name.png" alt="あいての名前"></label></dt>
@@ -74,7 +95,6 @@
         </form>
     </div>
 </div>
-
 
 <section id="question01" class="wrapper mgb100">
     <header class="mgb30 clearfix">
@@ -148,7 +168,25 @@
 <p class="wrapper mgb20"><img src="i/catch01.png" alt="もしかしたら、自分の思いちがいかも。でも、１通のメールで、あの人をまもれるかもしれない。"></p>
 
 
-
+<div class="formContainer">
+    <div class="innerContents wrapper clearfix">
+        <form>
+            <dl>
+                <dt><label for=""><img src="i/label_name.png" alt="あいての名前"></label></dt>
+                <dd><input type="text"></dd>
+            </dl>
+            <dl>
+                <dt><label for=""><img src="i/label_email.png" alt="あいてのメールアドレス"></label></dt>
+                <dd><input type="email"></dd>
+            </dl>
+            <dl class="relation">
+                <dt><label for=""><img src="i/label_relation.png" alt="あいてとのかんけい"></label></dt>
+                <dd><input type="text"></dd>
+            </dl>
+            <input class="submitBtn onMouseOver" type="image" src="i/btn_submit.png">
+        </form>
+    </div>
+</div>
 
 
 <footer class="wrapper">
@@ -166,17 +204,16 @@
 <script>window.jQuery || document.write('<script src="j/jquery-1.7.1.min.js"><\/script>')</script>
 <script src="j/script.js"></script>
 <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-23653112-14']);
+    _gaq.push(['_trackPageview']);
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-23653112-15']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
 </script>
 </body>
 </html>
+<?php }} ?>

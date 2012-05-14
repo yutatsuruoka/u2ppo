@@ -1,4 +1,25 @@
-<!doctype html>
+<?php /* Smarty version Smarty-3.1.8, created on 2012-05-15 04:45:26
+         compiled from "/home/sites/heteml/users10/h/b/k/hbkr/web/u2ppo.com/www/../templates/check.tmp" */ ?>
+<?php /*%%SmartyHeaderCode:14627871484fb0ff361f74a8-25496731%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '72b5eb6a2eb0f136e5bfd3be906e971af52d71b6' => 
+    array (
+      0 => '/home/sites/heteml/users10/h/b/k/hbkr/web/u2ppo.com/www/../templates/check.tmp',
+      1 => 1337024419,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '14627871484fb0ff361f74a8-25496731',
+  'function' => 
+  array (
+  ),
+  'version' => 'Smarty-3.1.8',
+  'unifunc' => 'content_4fb0ff362259e8_89331879',
+  'has_nocache_code' => false,
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_4fb0ff362259e8_89331879')) {function content_4fb0ff362259e8_89331879($_smarty_tpl) {?><!doctype html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="jp"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="jp"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="jp"> <![endif]-->
@@ -32,9 +53,10 @@
     fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
-<header id="checkHeader" class="mgb100" role="header">
+<header id="checkHeader" class="mgb100 pdb30" role="header">
     <div class="innerContents wrapper">
-        <h1><img src="i/stresscheck_keyvisual02.png" alt="ストレスチェック"></h1>
+        <h1><a href="/"><img src="i/stresscheck_keyvisual.png" alt="ストレスチェック"></a></h1>
+        <p class="startBtn"><a href="/test.php"><img src="i/startbtn.png" alt="診断スタート"></a></p>
     </div>
     <!--
   <div class="headerContents ">
@@ -50,70 +72,58 @@
   </div>
     -->
 </header>
-<%if ($error)%>
-    <div class="wrapper errorNotification mgb30"><%$error%></div>
-<%/if%>
-<div class="checkBlock wrapper mgb100">
-    <form action="/answer.php" method="post">
-        <p class="mgb50">過去１ヶ月、あなたがどの様に感じていたかについておたずねします。<br>
-            それぞれの質問に対して、そういう気持ちをどれくらいの頻度で感じていたか、<br>
-            １番あてはまるものをひとつ選んで下さい。</p>
-        <fieldset class="mgb50">
-            <label class="color font24">神経過敏に感じましたか？</label>
-            <ul class="clearfix">
-                <li><input type="radio" name="q1" value="5"><span>いつも</span></ll>
-                <li><input type="radio" name="q1" value="4"><span>たいてい</span></ll>
-                <li><input type="radio" name="q1" value="3"><span>ときどき</span></ll>
-                <li><input type="radio" name="q1" value="2"><span>少しだけ</span></ll>
-                <li><input type="radio" name="q1" value="1"><span>全くない</span></ll>
-            </ul>
-        </fieldset>
-        <fieldset class="mgb50">
-            <label class="color font24">絶望的だと感じましたか？</label>
-            <ul class="clearfix">
-                <li><input type="radio" name="q2" value="5"><span>いつも</span></ll>
-                <li><input type="radio" name="q2" value="4"><span>たいてい</span></ll>
-                <li><input type="radio" name="q2" value="3"><span>ときどき</span></ll>
-                <li><input type="radio" name="q2" value="2"><span>少しだけ</span></ll>
-                <li><input type="radio" name="q2" value="1"><span>全くない</span></ll>
-            </ul>
-        </fieldset>
-        <fieldset class="mgb50">
-            <label class="color font24">そわそわしたり、落ち着きなく感じましたか？</label>
-            <ul class="clearfix">
-                <li><input type="radio" name="q3" value="5"><span>いつも</span></ll>
-                <li><input type="radio" name="q3" value="4"><span>たいてい</span></ll>
-                <li><input type="radio" name="q3" value="3"><span>ときどき</span></ll>
-                <li><input type="radio" name="q3" value="2"><span>少しだけ</span></ll>
-                <li><input type="radio" name="q3" value="1"><span>全くない</span></ll>
-            </ul>
-        </fieldset>
-        <fieldset class="mgb50">
-            <label class="color font24">気分が沈み込んで、何が起こっても気が晴れない様に感じましたか？</label>
-            <ul class="clearfix">
-                <li><input type="radio" name="q4" value="5"><span>いつも</span></ll>
-                <li><input type="radio" name="q4" value="4"><span>たいてい</span></ll>
-                <li><input type="radio" name="q4" value="3"><span>ときどき</span></ll>
-                <li><input type="radio" name="q4" value="2"><span>少しだけ</span></ll>
-                <li><input type="radio" name="q4" value="1"><span>全くない</span></ll>
-            </ul>
-        </fieldset>
-        <fieldset class="mgb50">
-            <label class="color font24">何をするのも骨折りだと感じましたか？</label>
-            <ul class="clearfix">
-                <li><input type="radio" name="q5" value="5"><span>いつも</span></ll>
-                <li><input type="radio" name="q5" value="4"><span>たいてい</span></ll>
-                <li><input type="radio" name="q5" value="3"><span>ときどき</span></ll>
-                <li><input type="radio" name="q5" value="2"><span>少しだけ</span></ll>
-                <li><input type="radio" name="q5" value="1"><span>全くない</span></ll>
-            </ul>
-        </fieldset>
-        <p class="lineheight150 mgb20">以上で質問は完了です。<br>
-            下のボタンを押して、あなたの診断結果を見てみましょう！</p>
 
-        <input class="onMouseOver" type="image" src="i/check_submitbtn.png">
-    </form>
-</div>
+
+<section id="question01" class="wrapper mgb100">
+    <header class="mgb30 clearfix">
+        <div class="iconBlock pull-left">
+            <img src="i/icon_question.png" alt="">
+        </div>
+        <div class="textBlock pull-right">
+            <h1 class="mgt10 mgb15 font24 color">身近にこんな様子をした人はいませんか？</h1>
+            <p>もし見かけたら、それはうつ予備軍の可能性があります。<br>
+                「友人や家族などの大切な人を、うつ病で悩む前に救ってあげたい」うつっぽは、そんな想いから誕生した匿名通知サービスです。</p>
+        </div>
+    </header>
+    <ul class="thumbContainer mgb50">
+        <li><img src="i/question_img01.png" alt="">外に出ずひたすら眠り続けている</li>
+        <li><img src="i/question_img02.png" alt="">疲れているのにいつも寝れなそう</li>
+        <li><img src="i/question_img03.png" alt="">まじめな人が遅刻しがちになった</li>
+        <li class="last"><img src="i/question_img04.png" alt="">消えたいなどのネガティブツイート</li>
+    </ul>
+    <p class="font24 lineheight150">
+        うつ病はなってからでは対処が遅く、早い段階からの治療が必要です。<br>
+        しかし、自分ではなかなか分からない。<br>
+        まずはうつっぽを使って、自分のうつ状況を調べてみましょう！
+    </p>
+    <p class="wrapper mgt30"><a href="/test.php"><img src="i/startbtn_blue.png" alt="診断スタート"></a></p>
+</section>
+
+
+<section id="attention01" class="wrapper mgb100">
+    <header class="mgb30 clearfix">
+        <div class="iconBlock pull-left">
+            <img src="i/icon_attention.png" alt="">
+        </div>
+        <div class="textBlock pull-right">
+            <h1 class="mgt40 mgb25 font24 color">補足：うつ病になるとどの様な症状が起こってしまうの？</h1>
+        </div>
+    </header>
+    <ul class="column3 mgb90">
+        <li>
+            <h2 class="color font18 mgb15">本人に起こること。</h2>
+            <p>落ち込み、絶望感などがつきまといます。また、頭や体もつらくなります。いつもより集中できなかったり、よく眠れないまたは眠りすぎてしまうことも。その結果、仕事や家事、勉強ができなくなることがあります。</p>
+        </li>
+        <li>
+            <h2 class="color font18 mgb15">そのあとに起こること。</h2>
+            <p>うつ病になると、多くの心配を抱えるでしょう。治療費がかかり、お金が心配になります。休職や休学した人は、会社や学校に戻れるか不安になります。取り残されている感じ、誰かに迷惑をかけている気持ちになります。</p>
+        </li>
+        <li>
+            <h2 class="color font18 mgb15">周囲との関係で変わること。</h2>
+            <p>会話の内容がつらいことばかりになり、楽しい時間を共有できなくなくなりがちです。体調によって急に予定を変えたくなるので、気分屋に見えたりも。怒りっぽくなったり、依存的になったりすることもあります。</p>
+        </li>
+    </ul>
+</section>
 
 
 
@@ -145,4 +155,4 @@
 
 </script>
 </body>
-</html>
+</html><?php }} ?>
