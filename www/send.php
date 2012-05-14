@@ -34,10 +34,11 @@ session_start();
 session_regenerate_id();
 if($_SESSION['time']){
     $post = time() - $_SESSION['time'];
-    if($post <= 10){
+    if($post <= 180){
         //投稿NGページヘ
+        $_SESSION['ng'] = 1;
         header("HTTP/1.1 301 Moved Permanently");
-        header("Location: http://u2ppo.net");
+        header("Location: http://u2ppo.com/confirm.php");
         exit();
     }
 }
@@ -46,7 +47,7 @@ if($_SESSION['time']){
 $email = $_POST['mail'];
 if (!preg_match('/^[^0-9][a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[@][a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{2,4}$/',$email)) {
     header("HTTP/1.1 301 Moved Permanently");
-    header("Location: http://u2ppo.com/error.html");
+    header("Location: http://u2ppo.com/error.php");
     exit();
 }
 

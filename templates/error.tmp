@@ -41,22 +41,25 @@
         <h2><img src="i/caption.png" alt="うつ通知サービス“うつっぽ”もしかしたら、自分の思いちがいかも。でも、１通のメールで、あの人をまもれるかもしれない。"></h2>
     </hgroup>
     <!--
-<div class="headerContents ">
-  <aside class="snsContainer clearfix">
-  <div class="snsButton pull-right">
-    <fb:like href="https://www.facebook.com/liverty.jp" send="false" layout="button_count" width="100" show_faces="false" font="verdana" data-content="組織も、働き方も、生き方も、２１世紀型にアップデートしようぜ！ - liverty | Live in liberty. 自由に生きろ"></fb:like>
+  <div class="headerContents ">
+    <aside class="snsContainer clearfix">
+    <div class="snsButton pull-right">
+      <fb:like href="https://www.facebook.com/liverty.jp" send="false" layout="button_count" width="100" show_faces="false" font="verdana" data-content="組織も、働き方も、生き方も、２１世紀型にアップデートしようぜ！ - liverty | Live in liberty. 自由に生きろ"></fb:like>
+    </div>
+    <div class="snsButton pull-right">
+      <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://liverty.jp/" data-text="" data-hashtags="liverty">Tweet</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    </div>
+    </aside>
   </div>
-  <div class="snsButton pull-right">
-    <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://liverty.jp/" data-text="" data-hashtags="liverty">Tweet</a>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-  </div>
-  </aside>
-</div>
-  -->
+    -->
 </header>
 
 <div class="formContainer mgb100">
     <div class="innerContents wrapper clearfix">
+        <p class="pushText font24 mgb30">入力内容にミスがあった様です！<br>
+            もう１度入力内容を確認して、そうしんボタンを押して下さい。<br>
+            あなたの１通が、きっと相手を救うでしょう。</p>
         <form action="/send.php" method="post">
             <dl>
                 <dt><label for=""><img src="i/label_name.png" alt="あいての名前"></label></dt>
@@ -74,6 +77,7 @@
         </form>
     </div>
 </div>
+
 
 <section id="question01" class="wrapper mgb100">
     <header class="mgb30 clearfix">
@@ -147,35 +151,17 @@
 <p class="wrapper mgb20"><img src="i/catch01.png" alt="もしかしたら、自分の思いちがいかも。でも、１通のメールで、あの人をまもれるかもしれない。"></p>
 
 
-<div class="formContainer">
-    <div class="innerContents wrapper clearfix">
-        <form action="/send.php" method="post">
-            <dl>
-                <dt><label for=""><img src="i/label_name.png" alt="あいての名前"></label></dt>
-                <dd><input type="text" name="name"></dd>
-            </dl>
-            <dl>
-                <dt><label for=""><img src="i/label_email.png" alt="あいてのメールアドレス"></label></dt>
-                <dd><input type="email" name="mail"></dd>
-            </dl>
-            <dl class="relation">
-                <dt><label for=""><img src="i/label_relation.png" alt="あいてとのかんけい"></label></dt>
-                <dd><input type="text" name="type"></dd>
-            </dl>
-            <input class="submitBtn onMouseOver" type="image" src="i/btn_submit.png">
-        </form>
-    </div>
-</div>
+
 
 
 <footer class="wrapper">
     <div class="innerContents clearfix">
         <ul class="pull-left clearfix">
-            <li><a href="http://u2plus.co.jp/" target="_blank">運営会社</a><span>|</span></li>
-            <li><a href="http://u2plus.jp/contact" target="_blank">お問い合わせ</a><span>|</span></li>
-            <li><a href="http://blog.u2plus.jp/" target="_blank">ブログ</a></li>
+            <li><a href="" target="_blank">運営会社</a><span>|</span></li>
+            <li><a href="" target="_blank">お問い合わせ</a><span>|</span></li>
+            <li><a href="" target="_blank">ブログ</a></li>
         </ul>
-        <p class="pull-right"><small>Copyright &copy; <a href="http://liverty.jp" target="_blank">liverty</a> × <a href="http://u2plus.co.jp/" target="_blank">U2plus</a> All rights reserved.</small></p>
+        <p class="pull-right"><small>Copyright &copy; U2plus All rights reserved.</small></p>
     </div>
 </footer>
 

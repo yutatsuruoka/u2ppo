@@ -64,51 +64,51 @@
         <fieldset class="mgb50">
             <label class="color font24">神経過敏に感じましたか？</label>
             <ul class="clearfix">
-                <li><input type="radio" name="q1" value="0"><span>いつも</span></ll>
-                <li><input type="radio" name="q1" value="1"><span>たいてい</span></ll>
-                <li><input type="radio" name="q1" value="2"><span>ときどき</span></ll>
-                <li><input type="radio" name="q1" value="3"><span>少しだけ</span></ll>
-                <li><input type="radio" name="q1" value="4"><span>全くない</span></ll>
+                <li><input type="radio" name="q1" value="5"><span>いつも</span></ll>
+                <li><input type="radio" name="q1" value="4"><span>たいてい</span></ll>
+                <li><input type="radio" name="q1" value="3"><span>ときどき</span></ll>
+                <li><input type="radio" name="q1" value="2"><span>少しだけ</span></ll>
+                <li><input type="radio" name="q1" value="1"><span>全くない</span></ll>
             </ul>
         </fieldset>
         <fieldset class="mgb50">
             <label class="color font24">絶望的だと感じましたか？</label>
             <ul class="clearfix">
-                <li><input type="radio" name="q2" value="0"><span>いつも</span></ll>
-                <li><input type="radio" name="q2" value="1"><span>たいてい</span></ll>
-                <li><input type="radio" name="q2" value="2"><span>ときどき</span></ll>
-                <li><input type="radio" name="q2" value="3"><span>少しだけ</span></ll>
-                <li><input type="radio" name="q2" value="4"><span>全くない</span></ll>
+                <li><input type="radio" name="q2" value="5"><span>いつも</span></ll>
+                <li><input type="radio" name="q2" value="4"><span>たいてい</span></ll>
+                <li><input type="radio" name="q2" value="3"><span>ときどき</span></ll>
+                <li><input type="radio" name="q2" value="2"><span>少しだけ</span></ll>
+                <li><input type="radio" name="q2" value="1"><span>全くない</span></ll>
             </ul>
         </fieldset>
         <fieldset class="mgb50">
             <label class="color font24">そわそわしたり、落ち着きなく感じましたか？</label>
             <ul class="clearfix">
-                <li><input type="radio" name="q3" value="0"><span>いつも</span></ll>
-                <li><input type="radio" name="q3" value="1"><span>たいてい</span></ll>
-                <li><input type="radio" name="q3" value="2"><span>ときどき</span></ll>
-                <li><input type="radio" name="q3" value="3"><span>少しだけ</span></ll>
-                <li><input type="radio" name="q3" value="4"><span>全くない</span></ll>
+                <li><input type="radio" name="q3" value="5"><span>いつも</span></ll>
+                <li><input type="radio" name="q3" value="4"><span>たいてい</span></ll>
+                <li><input type="radio" name="q3" value="3"><span>ときどき</span></ll>
+                <li><input type="radio" name="q3" value="2"><span>少しだけ</span></ll>
+                <li><input type="radio" name="q3" value="1"><span>全くない</span></ll>
             </ul>
         </fieldset>
         <fieldset class="mgb50">
             <label class="color font24">気分が沈み込んで、何が起こっても気が晴れない様に感じましたか？</label>
             <ul class="clearfix">
-                <li><input type="radio" name="q4" value="0"><span>いつも</span></ll>
-                <li><input type="radio" name="q4" value="1"><span>たいてい</span></ll>
-                <li><input type="radio" name="q4" value="2"><span>ときどき</span></ll>
-                <li><input type="radio" name="q4" value="3"><span>少しだけ</span></ll>
-                <li><input type="radio" name="q4" value="4"><span>全くない</span></ll>
+                <li><input type="radio" name="q4" value="5"><span>いつも</span></ll>
+                <li><input type="radio" name="q4" value="4"><span>たいてい</span></ll>
+                <li><input type="radio" name="q4" value="3"><span>ときどき</span></ll>
+                <li><input type="radio" name="q4" value="2"><span>少しだけ</span></ll>
+                <li><input type="radio" name="q4" value="1"><span>全くない</span></ll>
             </ul>
         </fieldset>
         <fieldset class="mgb50">
             <label class="color font24">何をするのも骨折りだと感じましたか？</label>
             <ul class="clearfix">
-                <li><input type="radio" name="q5" value="0"><span>いつも</span></ll>
-                <li><input type="radio" name="q5" value="1"><span>たいてい</span></ll>
-                <li><input type="radio" name="q5" value="2"><span>ときどき</span></ll>
-                <li><input type="radio" name="q5" value="3"><span>少しだけ</span></ll>
-                <li><input type="radio" name="q5" value="4"><span>全くない</span></ll>
+                <li><input type="radio" name="q5" value="5"><span>いつも</span></ll>
+                <li><input type="radio" name="q5" value="4"><span>たいてい</span></ll>
+                <li><input type="radio" name="q5" value="3"><span>ときどき</span></ll>
+                <li><input type="radio" name="q5" value="2"><span>少しだけ</span></ll>
+                <li><input type="radio" name="q5" value="1"><span>全くない</span></ll>
             </ul>
         </fieldset>
         <p class="lineheight150 mgb20">以上で質問は完了です。<br>
@@ -127,7 +127,7 @@
             <li><a href="http://u2plus.jp/contact" target="_blank">お問い合わせ</a><span>|</span></li>
             <li><a href="http://blog.u2plus.jp/" target="_blank">ブログ</a></li>
         </ul>
-        <p class="pull-right"><small>Copyright &copy; <a href="http://livery.jp" target="_blank">liverty</a> × <a href="http://u2plus.co.jp/" target="_blank">U2plus</a> All rights reserved.</small></p>
+        <p class="pull-right"><small>Copyright &copy; <a href="http://liverty.jp" target="_blank">liverty</a> × <a href="http://u2plus.co.jp/" target="_blank">U2plus</a> All rights reserved.</small></p>
     </div>
 </footer>
 

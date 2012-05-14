@@ -2,7 +2,7 @@
 /**
  *
  *u2ppo
- *test
+ *index
  *@tsuru
  *
  */
@@ -15,23 +15,23 @@ require_once ($path . 'Smarty.class.php');
 $smarty = new Smarty();
 $smarty->left_delimiter = '<%';
 $smarty->right_delimiter = '%>';
+
 //テンプレートのパス
 $smarty->template_dir = __DIR__ . '/../templates/';
 //コンパイルのディレクトリ
 $smarty->compile_dir  = __DIR__ . '/../var/tmp_c/';
 
 require_once (__DIR__ . '/../lib/func.php');
-require_once ( __DIR__ . '/../initialize.php');
 
-$error = null;
-
-//チェック項目に不備がある場合
+//不正アクセス防止
 session_start();
 session_regenerate_id();
-if($_SESSION['error']){
-    $error = $_SESSION['error'];
-    session_destroy();
+if(!$_SESSION['ng'] == 1){
+    $_SESSION['ng'] = null;
+    header("HTTP/1.1 301 Moved Permanently");
+    header("Location: http://u2ppo.com");
+    exit();
 }
+$_SESSION['ng'] = null;
 
-$smarty->assign("error",$error);
-$smarty->display('test.tmp');
+$smarty->display('confirm.tmp');

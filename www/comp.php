@@ -31,15 +31,29 @@ if(!$_POST['name'] && !$_POST['mail'] && !$_POST['type']){
     exit();
 }
 
+//連続投稿阻止処理180秒
+session_start();
+session_regenerate_id();
+if($_SESSION['time']){
+    $post = time() - $_SESSION['time'];
+    if($post <= 180){
+        //投稿NGページヘ
+        $_SESSION['ng'] = 1;
+        header("HTTP/1.1 301 Moved Permanently");
+        header("Location: http://u2ppo.com/confirm.php");
+        exit();
+    }
+}
+
 $name = htmlspecialchars($_POST['name']);
 $mail = htmlspecialchars($_POST['mail']);
 $type = htmlspecialchars($_POST['type']);
 
 $recipients = $mail;
 
-$headers['From']    = 'noreply@u2ppo.com';
+$headers['From']    = '"うつ通知サービス" < noreply@u2ppo.com >';
 $headers['To']      = $mail;
-$headers['Subject'] = 'うつ通知サービス“うつっぽ”です。';
+$headers['Subject'] = 'うつ通知サービス“うつっぽ”からのご連絡です。';
 
 $body = $name . 'さんへ、
 あなたのお知り合い様より「うつっぽ」（ http://hogehoge.info/ ）にて
@@ -47,8 +61,8 @@ $body = $name . 'さんへ、
 
 ==============================
 
-やすひろさん
-気のせいならいいのですが、友達として、どうしても心配なことがあるんです。
+' . $name . 'さん
+気のせいならいいのですが、' . $type . 'として、どうしても心配なことがあるんです。
 わたしが最近のあなたをみていると、ストレスをため込んでいるように見えます。すこし無理をしていませんか？
 思い過ごしならいいのですが、すこしリラックスされるといいのかな、と感じています。
 
@@ -64,9 +78,8 @@ $mail_object =& Mail::factory('sendmail');
 $mail_object->send($recipients, $headers, $body);
 
 //投稿時間登録
-session_start();
-session_regenerate_id();
 $_SESSION['time'] = time();
+
 
 //DB接続
 $dbh = getDB();

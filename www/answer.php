@@ -36,11 +36,11 @@ if(!$_POST['q1'] && !$_POST['q2'] && !$_POST['q3'] && !$_POST['q4'] && !$_POST['
     $num = $_POST['q1'] + $_POST['q2'] + $_POST['q3'] + $_POST['q4'] + $_POST['q5'];
 }
 
-if($num <= 4 ){
+if($num <= 9 ){
     $tmp = 'ans1.tmp';
-}elseif($num >= 5 && $num <= 9){
+}elseif($num >= 10 && $num <= 14){
     $tmp = 'ans2.tmp';
-}elseif($num >= 10){
+}elseif($num >= 15){
     $tmp = 'ans3.tmp';
 }
 
