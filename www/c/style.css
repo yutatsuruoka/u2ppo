@@ -291,6 +291,9 @@ a:hover {
   padding: 0!important;
   border: none;
 }
+img {
+  vertical-align: bottom;
+}
 .clearfix {
   *zoom: 1;
 }
@@ -552,6 +555,13 @@ iframe.twitter-share-button {
   top: 20px;
   right: 0;
 }
+#checkHeader {
+  width: 100%;
+  background: #6eb7de;
+}
+.startBtn {
+  text-align: center;
+}
 .formContainer {
   width: 100%;
   background: #6eb7de;
@@ -634,6 +644,23 @@ section .column3 li {
   padding: 0 20px 0 0;
   flota: left;
 }
+.checkBlock {
+  text-align: center;
+}
+.checkBlock ul {
+  width: 480px;
+  margin: 10px auto 0;
+}
+.checkBlock li {
+  float: left;
+  margin: 0 20px 0 0;
+}
+.checkBlock li input[type="radio"] {
+  margin-bottom: 3px;
+}
+.checkBlock li span {
+  padding: 0 5px;
+}
 footer {
   padding: 30px 0;
   width: 100%;
@@ -649,6 +676,10 @@ footer li {
 }
 footer li span {
   padding: 0 1em;
+}
+#checkFooter {
+  width: 100%;
+  border-top: 1px solid #6eb7de;
 }
 /*-----------------  Media Queries -----------------*/
 /* Mobile Portrait  @media only screen and (max-width: 479px) {

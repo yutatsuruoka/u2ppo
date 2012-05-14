@@ -35,12 +35,12 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
-<header id="globalHeader" class="wrapper" role="header">
-<hgroup>
-<h1><img src="i/logo.png" alt="U2plus"></h1>
-<h2><img src="i/caption.png" alt="うつ通知サービス“うつっぽ”もしかしたら、自分の思いちがいかも。でも、１通のメールで、あの人をまもれるかもしれない。"></h2>
-</hgroup>
-<!--
+<header id="checkHeader" class="mgb100 pdb30" role="header">
+  <div class="innerContents wrapper">
+    <h1><img src="i/stresscheck_keyvisual.png" alt="ストレスチェック"></h1>
+    <p class="startBtn"><a href=""><img src="i/startbtn.png" alt="診断スタート"></a></p>
+  </div>
+  <!--
 <div class="headerContents ">
   <aside class="snsContainer clearfix">
   <div class="snsButton pull-right">
@@ -54,29 +54,6 @@
 </div>
   -->
 </header>
-
-<div class="formContainer mgb100">
-  <div class="innerContents wrapper clearfix">
-    <p class="pushText font24 mgb30">入力内容にミスがあった様です！<br>
-      もう１度入力内容を確認して、そうしんボタンを押して下さい。<br>
-      あなたの１通が、きっと相手を救うでしょう。</p>
-      <form action="/send.php" method="post">
-          <dl>
-              <dt><label for=""><img src="i/label_name.png" alt="あいての名前"></label></dt>
-              <dd><input type="text" name="name"></dd>
-          </dl>
-          <dl>
-              <dt><label for=""><img src="i/label_email.png" alt="あいてのメールアドレス"></label></dt>
-              <dd><input type="email" name="mail"></dd>
-          </dl>
-          <dl class="relation">
-              <dt><label for=""><img src="i/label_relation.png" alt="あいてとのかんけい"></label></dt>
-              <dd><input type="text" name="type"></dd>
-          </dl>
-          <input class="submitBtn onMouseOver" type="image" src="i/btn_submit.png">
-      </form>
-  </div>
-</div>
 
 
 <section id="question01" class="wrapper mgb100">
@@ -98,29 +75,12 @@
   </ul>
   <p class="font24 lineheight150">
     うつ病はなってからでは対処が遅く、早い段階からの治療が必要です。<br>
-    しかし、直接はとても言いづらい。<br>
-    そんな場合には、うつっぽを使って間接的に通知を送ってみましょう。
+    しかし、自分ではなかなか分からない。<br>
+    まずはうつっぽを使って、自分のうつ状況を調べてみましょう！
   </p>
+  <p class="wrapper mgt30"><a href=""><img src="i/startbtn_blue.png" alt="診断スタート"></a></p>
 </section>
 
-<section id="hatena01" class="wrapper mgb100">
-  <header class="mgb30 clearfix">
-    <div class="iconBlock pull-left">
-      <img src="i/icon_hatena.png" alt="">
-    </div>
-    <div class="textBlock pull-right">
-      <h1 class="mgt10 mgb15 font24 color">うつっぽの使い方</h1>
-      <p>うつっぽは非常に簡単に、そして匿名性を活かしてうつ予備軍の通知を行えます。<br>
-        うつ病になる前に大切な人へしっかりと通知をし、手遅れとなる前にレベルに合わせた対処法を呼びかけます。</p>
-    </div>
-  </header>
-  <ul class="thumbContainer mgb50">
-    <li><img src="i/hatena_img01.png" alt="">通知したい相手の情報を入力</li>
-    <li><img src="i/hatena_img02.png" alt="">アンケートが相手に届きます</li>
-    <li><img src="i/hatena_img03.png" alt="">いくつかの質問に答えると…</li>
-    <li class="last"><img src="i/hatena_img04.png" alt="">結果に基づいた対処法をアドバイス</li>
-  </ul>
-</section>
 
 <section id="attention01" class="wrapper mgb100">
   <header class="mgb30 clearfix">
@@ -148,14 +108,9 @@
 </section>
 
 
-<p class="wrapper mgb20"><img src="i/catch01.png" alt="もしかしたら、自分の思いちがいかも。でも、１通のメールで、あの人をまもれるかもしれない。"></p>
 
-
-
-
-
-<footer class="wrapper">
-  <div class="innerContents clearfix">
+<footer id="checkFooter">
+  <div class="innerContents wrapper clearfix">
     <ul class="pull-left clearfix">
       <li><a href="" target="_blank">運営会社</a><span>|</span></li>
       <li><a href="" target="_blank">お問い合わせ</a><span>|</span></li>

@@ -29,7 +29,7 @@ if(!$_POST['name'] && !$_POST['mail'] && !$_POST['type']){
     exit();
 }
 
-//連続投稿阻止処理
+//連続投稿阻止処理180秒
 session_start();
 session_regenerate_id();
 if($_SESSION['time']){
@@ -37,7 +37,7 @@ if($_SESSION['time']){
     if($post <= 10){
         //投稿NGページヘ
         header("HTTP/1.1 301 Moved Permanently");
-        header("Location: http://google.com");
+        header("Location: http://u2ppo.net");
         exit();
     }
 }
@@ -58,4 +58,4 @@ $smarty->assign("name",$name);
 $smarty->assign("mail",$mail);
 $smarty->assign("type",$type);
 
-$smarty->display('send0.tmp');
+$smarty->display('send.tmp');

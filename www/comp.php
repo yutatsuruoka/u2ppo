@@ -41,7 +41,11 @@ $headers['From']    = 'yuta@apple.com';
 $headers['To']      = $mail;
 $headers['Subject'] = $name . 'さんにテストメールを送信しています。';
 
-$body = 'u2ppoテスト送信。あなたとの関係は' . $type . 'です。';
+$body = 'u2ppoテスト送信。あなたとの関係は' . $type . 'です。 http://u2ppo.com/check.php
+asasas
+asasas
++++++=
+asasas';
 
 $mail_object =& Mail::factory('sendmail');
 $mail_object->send($recipients, $headers, $body);
@@ -55,18 +59,15 @@ $_SESSION['time'] = time();
 $dbh = getDB();
 
 //送信情報登録
-$sql = "INSERT into posts (name, mail, created) VALUES (?, ?, ?)";
+$sql = "INSERT into posts (name, mail, type, created) VALUES (?, ?, ?, ?)";
 $stmt = $dbh->prepare($sql);
 
 $date = date("Y/m/d H:i:s");
 
-if ($_POST['open'] == 1) {
-    $open = 1;
-}
-
 $stmt->bindParam(1, $name);
 $stmt->bindParam(2, $mail);
-$stmt->bindParam(3, $date);
+$stmt->bindParam(3, $type);
+$stmt->bindParam(4, $date);
 
 $stmt->execute();
 unset ($dbh);

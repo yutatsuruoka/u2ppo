@@ -2,7 +2,7 @@
 /**
  *
  *u2ppo
- *index
+ *comp
  *@tsuru
  *
  */
@@ -15,12 +15,13 @@ require_once ($path . 'Smarty.class.php');
 $smarty = new Smarty();
 $smarty->left_delimiter = '<%';
 $smarty->right_delimiter = '%>';
-
 //テンプレートのパス
 $smarty->template_dir = __DIR__ . '/../templates/';
 //コンパイルのディレクトリ
 $smarty->compile_dir  = __DIR__ . '/../var/tmp_c/';
 
 require_once (__DIR__ . '/../lib/func.php');
+require_once ( __DIR__ . '/../initialize.php');
+;
 
-$smarty->display('index.tmp');
+$smarty->display('check.tmp');
