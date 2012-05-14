@@ -1,0 +1,655 @@
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+  display: block;
+}
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+audio:not([controls]) {
+  display: none;
+}
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+a:hover,
+a:active {
+  outline: 0;
+}
+sub,
+sup {
+  position: relative;
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+button,
+input,
+select,
+textarea {
+  margin: 0;
+  font-size: 100%;
+  vertical-align: middle;
+}
+button,
+input {
+  *overflow: visible;
+  line-height: normal;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+}
+input[type="search"] {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  -webkit-appearance: textfield;
+}
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  font-weight: normal;
+  vertical-align: baseline;
+  background: transparent;
+}
+body {
+  line-height: 1;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+nav ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+del {
+  text-decoration: line-through;
+}
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+input,
+select {
+  vertical-align: middle;
+}
+ul li {
+  list-style-type: none;
+}
+/* ===== Primary Styles ================================================================================================================================== */
+body {
+  font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+  color: #999999;
+  background: #ffffff;
+  font-size: 14px;
+  letter-spacing: .07em;
+  line-height: 1.6em;
+  width: 100%;
+  min-width: 960px;
+  -webkit-font-smoothing: subpixel-antialiased;
+  /* Fix for webkit rendering */
+
+  -webkit-text-size-adjust: none;
+}
+a,
+a:visited {
+  color: #6eb7de;
+  text-decoration: none;
+  border: none;
+}
+a:hover {
+  opacity: .6;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=60)";
+  filter: progid:dximagetransform.microsoft.alpha(opacity=60);
+}
+::-moz-selection {
+  background: #6eb7de;
+  color: #ffffff;
+  text-shadow: none;
+}
+::selection {
+  background: #6eb7de;
+  color: #ffffff;
+  text-shadow: none;
+}
+.last {
+  margin: 0!important;
+  padding: 0!important;
+  border: none;
+}
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+}
+.clearfix:after {
+  clear: both;
+}
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+.last {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.mgt5 {
+  margin-top: 5px;
+}
+.mgt10 {
+  margin-top: 10px;
+}
+.mgt15 {
+  margin-top: 15px;
+}
+.mgt20 {
+  margin-top: 20px;
+}
+.mgt30 {
+  margin-top: 30px;
+}
+.mgt40 {
+  margin-top: 40px;
+}
+.mgt60 {
+  margin-top: 60px;
+}
+.mgt90 {
+  margin-top: 90px;
+}
+.mgr5 {
+  margin-right: 5px;
+}
+.mgr10 {
+  margin-right: 10px;
+}
+.mgr15 {
+  margin-right: 15px;
+}
+.mgr20 {
+  margin-right: 20px;
+}
+.mgr30 {
+  margin-right: 30px;
+}
+.mgr40 {
+  margin-right: 40px;
+}
+.mgr60 {
+  margin-right: 60px;
+}
+.mgr90 {
+  margin-right: 90px;
+}
+.mgb5 {
+  margin-bottom: 5px;
+}
+.mgb10 {
+  margin-bottom: 10px;
+}
+.mgb15 {
+  margin-bottom: 15px;
+}
+.mgb20 {
+  margin-bottom: 20px;
+}
+.mgb25 {
+  margin-bottom: 25px;
+}
+.mgb30 {
+  margin-bottom: 30px;
+}
+.mgb40 {
+  margin-bottom: 40px;
+}
+.mgb50 {
+  margin-bottom: 50px;
+}
+.mgb60 {
+  margin-bottom: 60px;
+}
+.mgb90 {
+  margin-bottom: 90px;
+}
+.mgb100 {
+  margin-bottom: 100px;
+}
+.mgl10 {
+  margin-left: 10px;
+}
+.mgl15 {
+  margin-left: 15px;
+}
+.mgl20 {
+  margin-left: 20px;
+}
+.mgl30 {
+  margin-left: 30px;
+}
+.mgl60 {
+  margin-left: 60px;
+}
+.mgl90 {
+  margin-left: 90px;
+}
+.pdt5 {
+  padding-top: 5px;
+}
+.pdt10 {
+  padding-top: 10px;
+}
+.pdt15 {
+  padding-top: 15px;
+}
+.pdt20 {
+  padding-top: 20px;
+}
+.pdt30 {
+  padding-top: 30px;
+}
+.pdt90 {
+  padding-top: 90px;
+}
+.pdr10 {
+  padding-right: 10px;
+}
+.pdr15 {
+  padding-right: 15px;
+}
+.pdr30 {
+  padding-right: 30px;
+}
+.pdb5 {
+  padding-bottom: 5px;
+}
+.pdb10 {
+  padding-bottom: 10px;
+}
+.pdb15 {
+  padding-bottom: 15px;
+}
+.pdb20 {
+  padding-bottom: 20px;
+}
+.pdb30 {
+  margin-bottom: 30px;
+}
+.pdl10 {
+  padding-left: 10px;
+}
+.pdl15 {
+  padding-left: 15px;
+}
+.pdl20 {
+  padding-left: 20px;
+}
+.pdl30 {
+  padding-left: 30px;
+}
+.pda5 {
+  padding: 5px;
+}
+.pda10 {
+  padding: 0px;
+}
+.pda20 {
+  padding: 20px;
+}
+.pda30 {
+  padding: 30px;
+}
+input[type="text"] {
+  letter-spacing: .1em;
+}
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+}
+.font18 {
+  font-size: 18px;
+  line-height: 100%;
+}
+.font24 {
+  font-size: 24px;
+  line-height: 100%;
+}
+.font36 {
+  font-size: 36px;
+  line-height: 100%;
+}
+.font48 {
+  font-size: 48px;
+  line-height: 100%;
+}
+.lineheight150 {
+  line-height: 150%;
+}
+.lineheight200 {
+  line-height: 200%;
+}
+.pull-right {
+  float: right;
+}
+.pull-left {
+  float: left;
+}
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+.color {
+  color: #6eb7de;
+}
+iframe.twitter-share-button {
+  width: 90px!important;
+}
+.onMouseOver:hover {
+  opacity: .7;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=70)";
+  filter: progid:dximagetransform.microsoft.alpha(opacity=70);
+}
+#globalHeader {
+  position: relative;
+}
+#globalHeader h1 {
+  width: 200px;
+  margin: 0 auto;
+}
+#globalHeader h2 {
+  width: 673px;
+  margin: 25px auto;
+}
+#globalHeader .snsContainer {
+  position: absolute;
+  top: 20px;
+  right: 0;
+}
+.formContainer {
+  width: 100%;
+  background: #6eb7de;
+}
+.formContainer .innerContents {
+  padding: 25px 0;
+}
+.formContainer .innerContents dl {
+  float: left;
+  margin: 0 10px 0 0;
+}
+.formContainer .innerContents input[type="email"],
+.formContainer .innerContents input[type="text"] {
+  width: 280px;
+  height: 40px;
+  padding: 0 10px;
+  line-height: 40px;
+  border: 0;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+.formContainer .innerContents .relation input {
+  width: 210px;
+}
+.formContainer .innerContents label {
+  display: block;
+}
+.formContainer .innerContents .submitBtn {
+  margin: 38px 0 0;
+}
+section .iconBlock {
+  width: 97px;
+}
+section .textBlock {
+  width: 845px;
+}
+section .thumbContainer {
+  *zoom: 1;
+}
+section .thumbContainer:before,
+section .thumbContainer:after {
+  display: table;
+  content: "";
+}
+section .thumbContainer:after {
+  clear: both;
+}
+section .thumbContainer li {
+  text-align: center;
+  float: left;
+  width: 228px;
+  margin: 0 16px 0 0;
+}
+section .thumbContainer li img {
+  width: 228px;
+  height: 228px;
+  margin: 0 0 5px;
+}
+section .column3 {
+  *zoom: 1;
+}
+section .column3:before,
+section .column3:after {
+  display: table;
+  content: "";
+}
+section .column3:after {
+  clear: both;
+}
+section .column3 li {
+  float: left;
+  width: 300px;
+  padding: 0 20px 0 0;
+  flota: left;
+}
+footer {
+  padding: 30px 0;
+  width: 100%;
+  min-width: 960px;
+  text-align: center;
+}
+footer .innerContents {
+  width: 550px;
+  margin: 0 auto;
+}
+footer li {
+  float: left;
+}
+footer li span {
+  padding: 0 1em;
+}
+/*-----------------  Media Queries -----------------*/
+/* Mobile Portrait  @media only screen and (max-width: 479px) {
+}
+*/
+@media only screen and (max-width: 479px) {
+  header {
+    position: static;
+  }
+}
