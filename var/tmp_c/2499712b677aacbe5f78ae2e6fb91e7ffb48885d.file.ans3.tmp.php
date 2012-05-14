@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2012-05-15 03:37:44
+<?php /* Smarty version Smarty-3.1.8, created on 2012-05-15 05:04:39
          compiled from "/home/sites/heteml/users10/h/b/k/hbkr/web/u2ppo.com/www/../templates/ans3.tmp" */ ?>
 <?php /*%%SmartyHeaderCode:16586512354fb11de2839ec4-99454455%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '2499712b677aacbe5f78ae2e6fb91e7ffb48885d' => 
     array (
       0 => '/home/sites/heteml/users10/h/b/k/hbkr/web/u2ppo.com/www/../templates/ans3.tmp',
-      1 => 1337014672,
+      1 => 1337024426,
       2 => 'file',
     ),
   ),
@@ -29,18 +29,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>うつ通知サービス“うつっぽ”</title>
     <meta name="description" content="うつ通知サービス“うつっぽ”もしかしたら、自分の思いちがいかも。でも、１通のメールで、あの人をまもれるかもしれない。">
-    <meta name="keywords" content="liverty">
+    <meta name="keywords" content="u2ppo">
     <meta name="viewport" content="width=device-width">
     <meta property="og:title" content="うつ通知サービス“うつっぽ”もしかしたら、自分の思いちがいかも。でも、１通のメールで、あの人をまもれるかもしれない。">
-    <meta property="og:site_name" content="liverty | Live in liberty." />
-    <meta property="og:description" content="">
-    <meta property="og:url" content="">
-    <meta property="og:image" content="">
-    <meta property="og:image" content="">
-    <meta property="og:image" content="">
-    <meta property="og:image" content="">
+    <meta property="og:site_name" content="うつ通知サービス | うつっぽ" />
+    <meta property="og:description" content="もしかしたら、自分の思いちがいかも。でも、１通のメールで、あの人をまもれるかもしれない。うつ通知サービス“うつっぽ">
+    <meta property="og:url" content="http://u2ppo.com/">
+    <meta property="og:image" content="http://u2ppo.com/i/ogimage.png">
     <meta property="og:type" content="website" />
-    <meta property="fb:app_id" content="150394821758169" />
+    <meta property="fb:app_id" content="364897396902078" />
     <link rel="stylesheet" href="c/style.css">
     <script src="j/modernizr-2.5.3.min.js"></script>
 </head>
@@ -173,15 +170,17 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <script>window.jQuery || document.write('<script src="j/jquery-1.7.1.min.js"><\/script>')</script>
 <script src="j/script.js"></script>
 <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-23653112-14']);
-    _gaq.push(['_trackPageview']);
 
-    (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-23653112-15']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
 </script>
 </body>
 </html>

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2012-05-15 04:45:53
+<?php /* Smarty version Smarty-3.1.8, created on 2012-05-15 04:52:50
          compiled from "/home/sites/heteml/users10/h/b/k/hbkr/web/u2ppo.com/www/../templates/test.tmp" */ ?>
 <?php /*%%SmartyHeaderCode:14221531454fb101ecd0e5c0-60429210%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'debee0ff6ab55ee7fcb1f36a727698b8e377cabb' => 
     array (
       0 => '/home/sites/heteml/users10/h/b/k/hbkr/web/u2ppo.com/www/../templates/test.tmp',
-      1 => 1337024413,
+      1 => 1337025164,
       2 => 'file',
     ),
   ),
@@ -59,7 +59,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
 <header id="checkHeader" class="mgb100" role="header">
     <div class="innerContents wrapper">
-        <h1><img src="i/stresscheck_keyvisual02.png" alt="ストレスチェック"></h1>
+        <h1><a href="/"><img src="i/stresscheck_keyvisual02.png" alt="ストレスチェック"></a></h1>
     </div>
     <!--
   <div class="headerContents ">
@@ -91,7 +91,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                 <li><input type="radio" name="q1" value="4"><span>たいてい</span></ll>
                 <li><input type="radio" name="q1" value="3"><span>ときどき</span></ll>
                 <li><input type="radio" name="q1" value="2"><span>少しだけ</span></ll>
-                <li><input type="radio" name="q1" value="1"><span>全くない</span></ll>
+                <li class="last"><input type="radio" name="q1" value="1"><span>全くない</span></ll>
             </ul>
         </fieldset>
         <fieldset class="mgb50">
@@ -101,7 +101,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                 <li><input type="radio" name="q2" value="4"><span>たいてい</span></ll>
                 <li><input type="radio" name="q2" value="3"><span>ときどき</span></ll>
                 <li><input type="radio" name="q2" value="2"><span>少しだけ</span></ll>
-                <li><input type="radio" name="q2" value="1"><span>全くない</span></ll>
+                <li class="last"><input type="radio" name="q2" value="1"><span>全くない</span></ll>
             </ul>
         </fieldset>
         <fieldset class="mgb50">
@@ -111,7 +111,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                 <li><input type="radio" name="q3" value="4"><span>たいてい</span></ll>
                 <li><input type="radio" name="q3" value="3"><span>ときどき</span></ll>
                 <li><input type="radio" name="q3" value="2"><span>少しだけ</span></ll>
-                <li><input type="radio" name="q3" value="1"><span>全くない</span></ll>
+                <li class="last"><input type="radio" name="q3" value="1"><span>全くない</span></ll>
             </ul>
         </fieldset>
         <fieldset class="mgb50">
@@ -121,7 +121,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                 <li><input type="radio" name="q4" value="4"><span>たいてい</span></ll>
                 <li><input type="radio" name="q4" value="3"><span>ときどき</span></ll>
                 <li><input type="radio" name="q4" value="2"><span>少しだけ</span></ll>
-                <li><input type="radio" name="q4" value="1"><span>全くない</span></ll>
+                <li class="last"><input type="radio" name="q4" value="1"><span>全くない</span></ll>
             </ul>
         </fieldset>
         <fieldset class="mgb50">
@@ -131,7 +131,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                 <li><input type="radio" name="q5" value="4"><span>たいてい</span></ll>
                 <li><input type="radio" name="q5" value="3"><span>ときどき</span></ll>
                 <li><input type="radio" name="q5" value="2"><span>少しだけ</span></ll>
-                <li><input type="radio" name="q5" value="1"><span>全くない</span></ll>
+                <li class="last"><input type="radio" name="q5" value="1"><span>全くない</span></ll>
             </ul>
         </fieldset>
         <p class="lineheight150 mgb20">以上で質問は完了です。<br>

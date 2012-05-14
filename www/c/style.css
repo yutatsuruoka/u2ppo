@@ -692,7 +692,7 @@ section .column3 li {
   text-align: center;
 }
 .checkBlock ul {
-  width: 535px;
+  width: 500px;
   margin: 10px auto 0;
 }
 .checkBlock li {
@@ -704,6 +704,9 @@ section .column3 li {
 }
 .checkBlock li span {
   padding: 0 5px;
+}
+.checkBlock li.last {
+  margin: 0;
 }
 .checkResult {
   text-align: center;

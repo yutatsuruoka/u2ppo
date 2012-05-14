@@ -34,7 +34,7 @@
 
 <header id="checkHeader" class="mgb100" role="header">
     <div class="innerContents wrapper">
-        <h1><img src="i/stresscheck_keyvisual02.png" alt="ストレスチェック"></h1>
+        <h1><a href="/"><img src="i/stresscheck_keyvisual02.png" alt="ストレスチェック"></a></h1>
     </div>
     <!--
   <div class="headerContents ">
@@ -65,7 +65,7 @@
                 <li><input type="radio" name="q1" value="4"><span>たいてい</span></ll>
                 <li><input type="radio" name="q1" value="3"><span>ときどき</span></ll>
                 <li><input type="radio" name="q1" value="2"><span>少しだけ</span></ll>
-                <li><input type="radio" name="q1" value="1"><span>全くない</span></ll>
+                <li class="last"><input type="radio" name="q1" value="1"><span>全くない</span></ll>
             </ul>
         </fieldset>
         <fieldset class="mgb50">
@@ -75,7 +75,7 @@
                 <li><input type="radio" name="q2" value="4"><span>たいてい</span></ll>
                 <li><input type="radio" name="q2" value="3"><span>ときどき</span></ll>
                 <li><input type="radio" name="q2" value="2"><span>少しだけ</span></ll>
-                <li><input type="radio" name="q2" value="1"><span>全くない</span></ll>
+                <li class="last"><input type="radio" name="q2" value="1"><span>全くない</span></ll>
             </ul>
         </fieldset>
         <fieldset class="mgb50">
@@ -85,7 +85,7 @@
                 <li><input type="radio" name="q3" value="4"><span>たいてい</span></ll>
                 <li><input type="radio" name="q3" value="3"><span>ときどき</span></ll>
                 <li><input type="radio" name="q3" value="2"><span>少しだけ</span></ll>
-                <li><input type="radio" name="q3" value="1"><span>全くない</span></ll>
+                <li class="last"><input type="radio" name="q3" value="1"><span>全くない</span></ll>
             </ul>
         </fieldset>
         <fieldset class="mgb50">
@@ -95,7 +95,7 @@
                 <li><input type="radio" name="q4" value="4"><span>たいてい</span></ll>
                 <li><input type="radio" name="q4" value="3"><span>ときどき</span></ll>
                 <li><input type="radio" name="q4" value="2"><span>少しだけ</span></ll>
-                <li><input type="radio" name="q4" value="1"><span>全くない</span></ll>
+                <li class="last"><input type="radio" name="q4" value="1"><span>全くない</span></ll>
             </ul>
         </fieldset>
         <fieldset class="mgb50">
@@ -105,7 +105,7 @@
                 <li><input type="radio" name="q5" value="4"><span>たいてい</span></ll>
                 <li><input type="radio" name="q5" value="3"><span>ときどき</span></ll>
                 <li><input type="radio" name="q5" value="2"><span>少しだけ</span></ll>
-                <li><input type="radio" name="q5" value="1"><span>全くない</span></ll>
+                <li class="last"><input type="radio" name="q5" value="1"><span>全くない</span></ll>
             </ul>
         </fieldset>
         <p class="lineheight150 mgb20">以上で質問は完了です。<br>
