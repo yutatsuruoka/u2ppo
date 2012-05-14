@@ -73,7 +73,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index06-03.html" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="index06-03.html" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/www/index06-03.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state line="103" column="0" selection-start="4877" selection-end="4877" vertical-scroll-proportion="0.6701031">
@@ -109,10 +109,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="style.less" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="style.less" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/www/less/style.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="286" column="21" selection-start="5489" selection-end="5489" vertical-scroll-proportion="4.8944283">
+                <state line="329" column="10" selection-start="5998" selection-end="5998" vertical-scroll-proportion="0.6480938">
                   <folding />
                 </state>
               </provider>
@@ -151,10 +151,10 @@
         <option value="$PROJECT_DIR$/www/index03.html" />
         <option value="$PROJECT_DIR$/www/index04.html" />
         <option value="$PROJECT_DIR$/www/index05.html" />
-        <option value="$PROJECT_DIR$/www/less/style.less" />
         <option value="$PROJECT_DIR$/www/index06-02.html" />
         <option value="$PROJECT_DIR$/www/index06.html" />
         <option value="$PROJECT_DIR$/www/index06-03.html" />
+        <option value="$PROJECT_DIR$/www/less/style.less" />
       </list>
     </option>
   </component>
@@ -232,7 +232,39 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="u2ppo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="u2ppo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="u2ppo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="u2ppo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smarty" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -535,16 +567,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/less/style.less">
+    <entry file="file://$PROJECT_DIR$/www/index06-03.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="286" column="21" selection-start="5489" selection-end="5489" vertical-scroll-proportion="4.8944283">
+        <state line="103" column="0" selection-start="4877" selection-end="4877" vertical-scroll-proportion="0.6701031">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/index06-03.html">
+    <entry file="file://$PROJECT_DIR$/www/less/style.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="0" selection-start="4877" selection-end="4877" vertical-scroll-proportion="0.6701031">
+        <state line="329" column="10" selection-start="5998" selection-end="5998" vertical-scroll-proportion="0.6480938">
           <folding />
         </state>
       </provider>
