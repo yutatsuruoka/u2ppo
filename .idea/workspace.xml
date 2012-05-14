@@ -76,7 +76,7 @@
           <file leaf-file-name="index06-03.html" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/www/index06-03.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="103" column="0" selection-start="4877" selection-end="4877" vertical-scroll-proportion="0.6701031">
+                <state line="133" column="1" selection-start="6134" selection-end="6134" vertical-scroll-proportion="0.010309278">
                   <folding />
                 </state>
               </provider>
@@ -112,7 +112,7 @@
           <file leaf-file-name="style.less" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/www/less/style.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="329" column="10" selection-start="5998" selection-end="5998" vertical-scroll-proportion="0.6480938">
+                <state line="322" column="29" selection-start="5941" selection-end="5941" vertical-scroll-proportion="0.7653959">
                   <folding />
                 </state>
               </provider>
@@ -569,14 +569,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/index06-03.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="0" selection-start="4877" selection-end="4877" vertical-scroll-proportion="0.6701031">
+        <state line="133" column="1" selection-start="6134" selection-end="6134" vertical-scroll-proportion="0.010309278">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/less/style.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="329" column="10" selection-start="5998" selection-end="5998" vertical-scroll-proportion="0.6480938">
+        <state line="322" column="29" selection-start="5941" selection-end="5941" vertical-scroll-proportion="0.7653959">
           <folding />
         </state>
       </provider>
