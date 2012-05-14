@@ -552,6 +552,14 @@ iframe.twitter-share-button {
   top: 20px;
   right: 0;
 }
+#checkHeader {
+  width: 100%;
+  background: #6eb7de;
+  padding: 0 0 30px;
+}
+.startBtn {
+  text-align: center;
+}
 .formContainer {
   width: 100%;
   background: #6eb7de;
@@ -649,6 +657,10 @@ footer li {
 }
 footer li span {
   padding: 0 1em;
+}
+#checkFooter {
+  width: 100%;
+  border-top: 1px solid #6eb7de;
 }
 /*-----------------  Media Queries -----------------*/
 /* Mobile Portrait  @media only screen and (max-width: 479px) {
