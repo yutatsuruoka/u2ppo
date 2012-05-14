@@ -557,7 +557,7 @@ iframe.twitter-share-button {
   background: #6eb7de;
 }
 .formContainer .innerContents {
-  padding: 25px 0;
+  padding: 30px 0;
 }
 .formContainer .innerContents dl {
   float: left;
@@ -565,6 +565,7 @@ iframe.twitter-share-button {
 }
 .formContainer .innerContents input[type="email"],
 .formContainer .innerContents input[type="text"] {
+  color: #6eb7de;
   width: 280px;
   height: 40px;
   padding: 0 10px;
@@ -582,6 +583,11 @@ iframe.twitter-share-button {
 }
 .formContainer .innerContents .submitBtn {
   margin: 38px 0 0;
+}
+.formContainer .innerContents .errorText {
+  text-align: center;
+  color: #ffffff;
+  line-height: 150%;
 }
 section .iconBlock {
   width: 97px;
