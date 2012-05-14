@@ -291,6 +291,9 @@ a:hover {
   padding: 0!important;
   border: none;
 }
+img {
+  vertical-align: bottom;
+}
 .clearfix {
   *zoom: 1;
 }
@@ -555,7 +558,6 @@ iframe.twitter-share-button {
 #checkHeader {
   width: 100%;
   background: #6eb7de;
-  padding: 0 0 30px;
 }
 .startBtn {
   text-align: center;
@@ -641,6 +643,23 @@ section .column3 li {
   width: 300px;
   padding: 0 20px 0 0;
   flota: left;
+}
+.checkBlock {
+  text-align: center;
+}
+.checkBlock ul {
+  width: 480px;
+  margin: 10px auto 0;
+}
+.checkBlock li {
+  float: left;
+  margin: 0 20px 0 0;
+}
+.checkBlock li input[type="radio"] {
+  margin-bottom: 3px;
+}
+.checkBlock li span {
+  padding: 0 5px;
 }
 footer {
   padding: 30px 0;
