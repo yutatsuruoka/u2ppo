@@ -22,21 +22,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="test.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/test.php">
+      <file leaf-file-name="index06.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/index06.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="22" selection-start="611" selection-end="611" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#6#43#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.tmp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/test.tmp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="120" column="0" selection-start="6401" selection-end="6401" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="5808" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -45,28 +34,46 @@
       <file leaf-file-name="index06-02.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/index06-02.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="0" column="0" selection-start="0" selection-end="6985" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index06.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/index06.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="5834" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="answer.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="answer.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/answer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="14" selection-start="328" selection-end="328" vertical-scroll-proportion="0.43636364">
+            <state line="43" column="22" selection-start="1022" selection-end="1022" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#6#45#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ans3.tmp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/ans3.tmp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="166" column="0" selection-start="8068" selection-end="8068" vertical-scroll-proportion="0.8181818">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index06-03.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/index06-03.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="7430" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ans2.tmp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/ans2.tmp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="154" column="7" selection-start="7538" selection-end="7538" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -117,8 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/lib/func.php" />
-        <option value="$PROJECT_DIR$/lib/pear/Mail.php" />
         <option value="$PROJECT_DIR$/templates/comp.tmp" />
         <option value="$PROJECT_DIR$/templates/send0.tmp" />
         <option value="$PROJECT_DIR$/templates/index0.tmp" />
@@ -132,7 +137,9 @@
         <option value="$PROJECT_DIR$/www/test.php" />
         <option value="$PROJECT_DIR$/templates/test.tmp" />
         <option value="$PROJECT_DIR$/templates/ans1.tmp" />
+        <option value="$PROJECT_DIR$/templates/ans2.tmp" />
         <option value="$PROJECT_DIR$/www/answer.php" />
+        <option value="$PROJECT_DIR$/templates/ans3.tmp" />
       </list>
     </option>
   </component>
@@ -348,7 +355,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1366" height="698" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -426,25 +433,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/pear/Mail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="111" column="46" selection-start="4277" selection-end="4277" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/error.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="13" selection-start="3891" selection-end="3891" vertical-scroll-proportion="1.7066667">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/comp.tmp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="7" selection-start="157" selection-end="164" vertical-scroll-proportion="-6.4">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.tmp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="151" column="0" selection-start="6879" selection-end="7602" vertical-scroll-proportion="-1.92">
@@ -510,20 +498,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/index06-02.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/index06.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="5834" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/ans1.tmp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="130" column="0" selection-start="6226" selection-end="6226" vertical-scroll-proportion="0.0">
@@ -531,12 +505,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/www/index06.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="5808" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/index06-02.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="6985" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/ans2.tmp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="154" column="7" selection-start="7538" selection-end="7538" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/www/answer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="14" selection-start="328" selection-end="328" vertical-scroll-proportion="0.43636364">
+        <state line="43" column="22" selection-start="1022" selection-end="1022" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#6#45#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/index06-03.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="7430" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/ans3.tmp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="166" column="0" selection-start="8068" selection-end="8068" vertical-scroll-proportion="0.8181818">
+          <folding />
         </state>
       </provider>
     </entry>

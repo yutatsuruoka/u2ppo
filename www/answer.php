@@ -38,6 +38,10 @@ if(!$_POST['q1'] && !$_POST['q2'] && !$_POST['q3'] && !$_POST['q4'] && !$_POST['
 
 if($num <= 4 ){
     $tmp = 'ans1.tmp';
-}elseif{$num >= 5 && $num <= }
+}elseif($num >= 5 && $num <= 9){
+    $tmp = 'ans2.tmp';
+}elseif($num >= 10){
+    $tmp = 'ans3.tmp';
+}
 
 $smarty->display($tmp);
