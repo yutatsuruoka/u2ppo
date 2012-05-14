@@ -104,11 +104,11 @@
 <footer id="checkFooter">
     <div class="innerContents wrapper clearfix">
         <ul class="pull-left clearfix">
-            <li><a href="" target="_blank">運営会社</a><span>|</span></li>
-            <li><a href="" target="_blank">お問い合わせ</a><span>|</span></li>
-            <li><a href="" target="_blank">ブログ</a></li>
+            <li><a href="http://u2plus.co.jp/" target="_blank">運営会社</a><span>|</span></li>
+            <li><a href="http://u2plus.jp/contact" target="_blank">お問い合わせ</a><span>|</span></li>
+            <li><a href="http://blog.u2plus.jp/" target="_blank">ブログ</a></li>
         </ul>
-        <p class="pull-right"><small>Copyright &copy; U2plus All rights reserved.</small></p>
+        <p class="pull-right"><small>Copyright &copy; <a href="http://livery.jp" target="_blank">liverty</a> × <a href="http://u2plus.co.jp/" target="_blank">U2plus</a> All rights reserved.</small></p>
     </div>
 </footer>
 

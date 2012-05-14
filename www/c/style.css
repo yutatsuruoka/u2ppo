@@ -701,6 +701,12 @@ footer li span {
   width: 100%;
   border-top: 1px solid #6eb7de;
 }
+.errorNotification {
+  width: 938px;
+  border: 1px solid #ffcc00;
+  text-align: center;
+  padding: 10px;
+}
 /*-----------------  Media Queries -----------------*/
 /* Mobile Portrait  @media only screen and (max-width: 479px) {
 }

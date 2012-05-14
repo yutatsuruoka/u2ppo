@@ -37,15 +37,28 @@ $type = htmlspecialchars($_POST['type']);
 
 $recipients = $mail;
 
-$headers['From']    = 'yuta@apple.com';
+$headers['From']    = 'noreply@u2ppo.com';
 $headers['To']      = $mail;
-$headers['Subject'] = $name . 'さんにテストメールを送信しています。';
+$headers['Subject'] = 'うつ通知サービス“うつっぽ”です。';
 
-$body = 'u2ppoテスト送信。あなたとの関係は' . $type . 'です。 http://u2ppo.com/check.php
-asasas
-asasas
-+++++=
-asasas';
+$body = $name . 'さんへ、
+あなたのお知り合い様より「うつっぽ」（ http://hogehoge.info/ ）にて
+メッセージをお預かりしております。最後まで、落ち着いてお読みください。
+
+==============================
+
+やすひろさん
+気のせいならいいのですが、友達として、どうしても心配なことがあるんです。
+わたしが最近のあなたをみていると、ストレスをため込んでいるように見えます。すこし無理をしていませんか？
+思い過ごしならいいのですが、すこしリラックスされるといいのかな、と感じています。
+
+==============================
+
+以上が、依頼主様からのメッセージとなります。
+
+もしも、ストレスチェックをされる場合はこちら
+【うつっぽさチェック＆対処法のアドバイス】
+http://u2ppo.com/check.php';
 
 $mail_object =& Mail::factory('sendmail');
 $mail_object->send($recipients, $headers, $body);
