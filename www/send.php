@@ -20,6 +20,18 @@ $smarty->compile_dir  = __DIR__ . '/../var/tmp_c/';
 
 require_once (__DIR__ . '/../lib/func.php');
 
+//連続投稿阻止処理
+session_start();
+session_regenerate_id();
+if($_SESSION['time']){
+    $post = time() - $_SESSION['time'];
+    echo $post;
+    if($post <= 180){
+        //投稿NGページヘ
+        echo '投稿NG';
+    }
+}
+
 $name = $_POST['name'];
 $mail = $_POST['mail'];
 

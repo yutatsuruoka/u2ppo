@@ -22,6 +22,13 @@ require_once (__DIR__ . '/../lib/func.php');
 require_once ( __DIR__ . '/../initialize.php');
 require_once ('Mail.php');
 
+//POSTデータが無ければindexへ
+if(!$_POST['name'] && !$_POST['mail']){
+    header("HTTP/1.1 301 Moved Permanently");
+    header("Location: http://u2ppo.com");
+    exit();
+}
+
 $name = $_POST['name'];
 $mail = $_POST['mail'];
 
@@ -35,6 +42,32 @@ $body = 'u2ppoテスト送信';
 
 $mail_object =& Mail::factory('sendmail');
 $mail_object->send($recipients, $headers, $body);
+
+//投稿時間登録
+session_start();
+session_regenerate_id();
+$_SESSION['time'] = time();
+
+//DB接続
+$dbh = getDB();
+
+//送信情報登録
+$sql = "INSERT into posts (name, mail, created) VALUES (?, ?, ?)";
+$stmt = $dbh->prepare($sql);
+
+$date = date("Y/m/d H:i:s");
+
+if ($_POST['open'] == 1) {
+    $open = 1;
+}
+
+$stmt->bindParam(1, $name);
+$stmt->bindParam(2, $mail);
+$stmt->bindParam(3, $date);
+
+$stmt->execute();
+unset ($dbh);
+
 
 $smarty->assign("name",$name);
 $smarty->assign("mail",$mail);

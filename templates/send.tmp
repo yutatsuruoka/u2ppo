@@ -15,7 +15,7 @@
         <input type="hidden" name="name" value={$name}>
         <input type="hidden" name="mail" value={$mail}>
         <input type="submit" value="申告する。"><br />
-        <a href="/user/add.php">変更する</a>
+        <a href="">変更する</a>
 </form>
 </body>
 </html>

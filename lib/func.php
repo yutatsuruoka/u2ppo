@@ -13,8 +13,8 @@
  * @return db接続オブジェクト
  */
 function getDB(){
-	$dsn = 'mysql:dbname=_oremaison;host=mysql107.heteml.jp';
-	$user = '_oremaison';
+	$dsn = 'mysql:dbname=_u2ppo;host=mysql106.heteml.jp';
+	$user = '_u2ppo';
 	$pass = 'root';
 	
 	try{
