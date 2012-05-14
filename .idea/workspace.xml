@@ -24,10 +24,10 @@
     <splitter split-orientation="horizontal" split-proportion="0.625">
       <split-first>
         <leaf>
-          <file leaf-file-name="index02.html" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="index02.html" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/www/index02.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="85" column="45" selection-start="4000" selection-end="4000" vertical-scroll-proportion="0.5520685">
+                <state line="59" column="21" selection-start="3090" selection-end="3090" vertical-scroll-proportion="0.27817404">
                   <folding>
                     <element signature="tag#header#0;tag#body#0;tag#html#0" expanded="false" />
                   </folding>
@@ -51,10 +51,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="style.less" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="style.less" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/www/less/style.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="195" column="18" selection-start="4150" selection-end="4150" vertical-scroll-proportion="0.34750733">
+                <state line="215" column="19" selection-start="4534" selection-end="4534" vertical-scroll-proportion="0.81671554">
                   <folding />
                 </state>
               </provider>
@@ -94,8 +94,8 @@
         <option value="$PROJECT_DIR$/templates/comp.tmp" />
         <option value="$PROJECT_DIR$/templates/send.tmp" />
         <option value="$PROJECT_DIR$/www/index.html" />
-        <option value="$PROJECT_DIR$/www/less/style.less" />
         <option value="$PROJECT_DIR$/www/index02.html" />
+        <option value="$PROJECT_DIR$/www/less/style.less" />
       </list>
     </option>
   </component>
@@ -453,19 +453,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/less/style.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="195" column="18" selection-start="4150" selection-end="4150" vertical-scroll-proportion="0.34750733">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/index02.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="45" selection-start="4000" selection-end="4000" vertical-scroll-proportion="0.5520685">
+        <state line="59" column="21" selection-start="3090" selection-end="3090" vertical-scroll-proportion="0.27817404">
           <folding>
             <element signature="tag#header#0;tag#body#0;tag#html#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/less/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="215" column="19" selection-start="4534" selection-end="4534" vertical-scroll-proportion="0.81671554">
+          <folding />
         </state>
       </provider>
     </entry>
