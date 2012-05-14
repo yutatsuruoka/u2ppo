@@ -13,6 +13,8 @@ $path = __DIR__ . '/../lib/smarty/';
 require_once ($path . 'Smarty.class.php');
 //インスタンスを作成
 $smarty = new Smarty();
+$smarty->left_delimiter = '<%';
+$smarty->right_delimiter = '%>';
 //テンプレートのパス
 $smarty->template_dir = __DIR__ . '/../templates/';
 //コンパイルのディレクトリ
@@ -23,14 +25,15 @@ require_once ( __DIR__ . '/../initialize.php');
 require_once ('Mail.php');
 
 //POSTデータが無ければindexへ
-if(!$_POST['name'] && !$_POST['mail']){
+if(!$_POST['name'] && !$_POST['mail'] && !$_POST['type']){
     header("HTTP/1.1 301 Moved Permanently");
     header("Location: http://u2ppo.com");
     exit();
 }
 
-$name = $_POST['name'];
-$mail = $_POST['mail'];
+$name = htmlspecialchars($_POST['name']);
+$mail = htmlspecialchars($_POST['mail']);
+$type = htmlspecialchars($_POST['type']);
 
 $recipients = $mail;
 
@@ -38,7 +41,7 @@ $headers['From']    = 'yuta@apple.com';
 $headers['To']      = $mail;
 $headers['Subject'] = $name . 'さんにテストメールを送信しています。';
 
-$body = 'u2ppoテスト送信';
+$body = 'u2ppoテスト送信。あなたとの関係は' . $type . 'です。';
 
 $mail_object =& Mail::factory('sendmail');
 $mail_object->send($recipients, $headers, $body);
@@ -71,5 +74,6 @@ unset ($dbh);
 
 $smarty->assign("name",$name);
 $smarty->assign("mail",$mail);
+$smarty->assign("type",$type);
 
 $smarty->display('comp.tmp');

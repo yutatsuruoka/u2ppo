@@ -57,98 +57,9 @@
 
 <div class="formContainer mgb100">
     <div class="innerContents wrapper clearfix">
-        <form action="/send.php" method="post">
-            <dl>
-                <dt><label for=""><img src="i/label_name.png" alt="あいての名前"></label></dt>
-                <dd><input type="text" name="name"></dd>
-            </dl>
-            <dl>
-                <dt><label for=""><img src="i/label_email.png" alt="あいてのメールアドレス"></label></dt>
-                <dd><input type="email" name="mail"></dd>
-            </dl>
-            <dl class="relation">
-                <dt><label for=""><img src="i/label_relation.png" alt="あいてとのかんけい"></label></dt>
-                <dd><input type="text" name="type"></dd>
-            </dl>
-            <input class="submitBtn onMouseOver" type="image" src="i/btn_submit.png">
-        </form>
-    </div>
-</div>
-
-<section id="question01" class="wrapper mgb100">
-    <header class="mgb30 clearfix">
-        <div class="iconBlock pull-left">
-            <img src="i/icon_question.png" alt="">
-        </div>
-        <div class="textBlock pull-right">
-            <h1 class="mgt10 mgb15 font24 color">身近にこんな様子をした人はいませんか？</h1>
-            <p>もし見かけたら、それはうつ予備軍の可能性があります。<br>
-                「友人や家族などの大切な人を、うつ病で悩む前に救ってあげたい」うつっぽは、そんな想いから誕生した匿名通知サービスです。</p>
-        </div>
-    </header>
-    <ul class="thumbContainer mgb50">
-        <li><img src="i/question_img01.png" alt="">外に出ずひたすら眠り続けている</li>
-        <li><img src="i/question_img02.png" alt="">疲れているのにいつも寝れなそう</li>
-        <li><img src="i/question_img03.png" alt="">まじめな人が遅刻しがちになった</li>
-        <li class="last"><img src="i/question_img04.png" alt="">消えたいなどのネガティブツイート</li>
-    </ul>
-    <p class="font24 lineheight150">
-        うつ病はなってからでは対処が遅く、早い段階からの治療が必要です。<br>
-        しかし、直接はとても言いづらい。<br>
-        そんな場合には、うつっぽを使って間接的に通知を送ってみましょう。
-    </p>
-</section>
-
-<section id="hatena01" class="wrapper mgb100">
-    <header class="mgb30 clearfix">
-        <div class="iconBlock pull-left">
-            <img src="i/icon_hatena.png" alt="">
-        </div>
-        <div class="textBlock pull-right">
-            <h1 class="mgt10 mgb15 font24 color">うつっぽの使い方</h1>
-            <p>うつっぽは非常に簡単に、そして匿名性を活かしてうつ予備軍の通知を行えます。<br>
-                うつ病になる前に大切な人へしっかりと通知をし、手遅れとなる前にレベルに合わせた対処法を呼びかけます。</p>
-        </div>
-    </header>
-    <ul class="thumbContainer mgb50">
-        <li><img src="i/hatena_img01.png" alt="">通知したい相手の情報を入力</li>
-        <li><img src="i/hatena_img02.png" alt="">アンケートが相手に届きます</li>
-        <li><img src="i/hatena_img03.png" alt="">いくつかの質問に答えると…</li>
-        <li class="last"><img src="i/hatena_img04.png" alt="">結果に基づいた対処法をアドバイス</li>
-    </ul>
-</section>
-
-<section id="attention01" class="wrapper mgb100">
-    <header class="mgb30 clearfix">
-        <div class="iconBlock pull-left">
-            <img src="i/icon_attention.png" alt="">
-        </div>
-        <div class="textBlock pull-right">
-            <h1 class="mgt40 mgb25 font24 color">補足：うつ病になるとどの様な症状が起こってしまうの？</h1>
-        </div>
-    </header>
-    <ul class="column3 mgb90">
-        <li>
-            <h2 class="color font18 mgb15">本人に起こること。</h2>
-            <p>落ち込み、絶望感などがつきまといます。また、頭や体もつらくなります。いつもより集中できなかったり、よく眠れないまたは眠りすぎてしまうことも。その結果、仕事や家事、勉強ができなくなることがあります。</p>
-        </li>
-        <li>
-            <h2 class="color font18 mgb15">そのあとに起こること。</h2>
-            <p>うつ病になると、多くの心配を抱えるでしょう。治療費がかかり、お金が心配になります。休職や休学した人は、会社や学校に戻れるか不安になります。取り残されている感じ、誰かに迷惑をかけている気持ちになります。</p>
-        </li>
-        <li>
-            <h2 class="color font18 mgb15">周囲との関係で変わること。</h2>
-            <p>会話の内容がつらいことばかりになり、楽しい時間を共有できなくなくなりがちです。体調によって急に予定を変えたくなるので、気分屋に見えたりも。怒りっぽくなったり、依存的になったりすることもあります。</p>
-        </li>
-    </ul>
-</section>
-
-
-<p class="wrapper mgb20"><img src="i/catch01.png" alt="もしかしたら、自分の思いちがいかも。でも、１通のメールで、あの人をまもれるかもしれない。"></p>
-
-
-<div class="formContainer">
-    <div class="innerContents wrapper clearfix">
+        <p class="pushText font24 mgb30">入力内容は合っていますか？<br>
+            間違いが無ければ、うつっぽを使って相手にお知らせを送りましょう。<br>
+            あなたはとても優しい人ですね！</p>
         <form>
             <dl>
                 <dt><label for=""><img src="i/label_name.png" alt="あいての名前"></label></dt>
@@ -166,6 +77,34 @@
         </form>
     </div>
 </div>
+
+
+
+<form name="form" action="/comp.php" method="post">
+    ユーザー名：<br />
+<%$name%>
+    <br /><br />
+    メールアドレス：<br />
+<%$mail%>
+    関係：<br />
+<%$type%>
+    <br /><br />
+    <input type="hidden" name="name" value=<%$name%>>
+    <input type="hidden" name="mail" value=<%$mail%>>
+    <input type="hidden" name="type" value=<%$type%>>
+    <input type="submit" value="申告する。"><br />
+</form>
+
+
+
+
+<div class="mailSample wrapper">
+    <h1 class="font24 color mgb20">メール画面サンプル</h1>
+    <p class="mgb20">うつっぽのメールは完全匿名にて送信されますので、相手にあなたの名前が知れる事はありません。<br>
+        あなたの大切な人を、こっそりとサポートしてあげる事ができます。</p>
+    <img src="i/mail_sample.png" alt="メール画面サンプル">
+</div>
+
 
 
 <footer class="wrapper">
