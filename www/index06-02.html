@@ -35,7 +35,7 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
-<header id="checkHeader" class="mgb100" role="header">
+<header id="checkHeader" class="mgb50" role="header">
   <div class="innerContents wrapper">
     <h1><img src="i/stresscheck_keyvisual02.png" alt="ストレスチェック"></h1>
   </div>
@@ -55,69 +55,50 @@
 </header>
 
 
-<div class="checkBlock wrapper mgb100">
-  <form>
-    <p class="mgb50">過去１ヶ月、あなたがどの様に感じていたかについておたずねします。<br>
-      それぞれの質問に対して、そういう気持ちをどれくらいの頻度で感じていたか、<br>
-      １番あてはまるものをひとつ選んで下さい。</p>
-    <fieldset class="mgb50">
-      <label class="color font24">神経過敏に感じましたか？</label>
-      <ul class="clearfix">
-        <li><input type="radio" name="q1"><span>いつも</span></ll>
-        <li><input type="radio" name="q1"><span>たいてい</span></ll>
-        <li><input type="radio" name="q1"><span>ときどき</span></ll>
-        <li><input type="radio" name="q1"><span>少しだけ</span></ll>
-        <li><input type="radio" name="q1"><span>全くない</span></ll>
-      </ul>
-    </fieldset>
-    <fieldset class="mgb50">
-      <label class="color font24">絶望的だと感じましたか？</label>
-      <ul class="clearfix">
-        <li><input type="radio" name="q2"><span>いつも</span></ll>
-        <li><input type="radio" name="q2"><span>たいてい</span></ll>
-        <li><input type="radio" name="q2"><span>ときどき</span></ll>
-        <li><input type="radio" name="q2"><span>少しだけ</span></ll>
-        <li><input type="radio" name="q2"><span>全くない</span></ll>
-      </ul>
-    </fieldset>
-    <fieldset class="mgb50">
-      <label class="color font24">そわそわしたり、落ち着きなく感じましたか？</label>
-      <ul class="clearfix">
-        <li><input type="radio" name="q3"><span>いつも</span></ll>
-        <li><input type="radio" name="q3"><span>たいてい</span></ll>
-        <li><input type="radio" name="q3"><span>ときどき</span></ll>
-        <li><input type="radio" name="q3"><span>少しだけ</span></ll>
-        <li><input type="radio" name="q3"><span>全くない</span></ll>
-      </ul>
-    </fieldset>
-    <fieldset class="mgb50">
-      <label class="color font24">気分が沈み込んで、何が起こっても気が晴れない様に感じましたか？</label>
-      <ul class="clearfix">
-        <li><input type="radio" name="q4"><span>いつも</span></ll>
-        <li><input type="radio" name="q4"><span>たいてい</span></ll>
-        <li><input type="radio" name="q4"><span>ときどき</span></ll>
-        <li><input type="radio" name="q4"><span>少しだけ</span></ll>
-        <li><input type="radio" name="q4"><span>全くない</span></ll>
-      </ul>
-    </fieldset>
-    <fieldset class="mgb50">
-      <label class="color font24">何をするのも骨折りだと感じましたか？</label>
-      <ul class="clearfix">
-        <li><input type="radio" name="q5"><span>いつも</span></ll>
-        <li><input type="radio" name="q5"><span>たいてい</span></ll>
-        <li><input type="radio" name="q5"><span>ときどき</span></ll>
-        <li><input type="radio" name="q5"><span>少しだけ</span></ll>
-        <li><input type="radio" name="q5"><span>全くない</span></ll>
-      </ul>
-    </fieldset>
-    <p class="lineheight150 mgb20">以上で質問は完了です。<br>
-      下のボタンを押して、あなたの診断結果を見てみましょう！</p>
+<div class="checkResult wrapper">
+  <p class="mgb50">診断結果は下記の通りです！<br>
+    ５点以上だった方はうつ病予備軍の可能性があります。<br>
+    リンク先を参考に、早期の対処をしていきましょう！</p>
 
-    <input class="onMouseOver" type="image" src="i/check_submitbtn.png">
-  </form>zっっっz
+  <div class="resultPoint mgb100">
+    <img class="mgb20" src="i/check_point01.png" alt="0点〜4点">
+    <p>あなたは正常レベルです！まだまだ元気な様子ですね！<br>
+      息抜きや楽しい時間をしっかりと確保しながら、そのまま今の生活を持続していきましょう♩</p>
+  </div>
+
+  <section id="if01" class="wrapper mgb100">
+    <header class="mgb30 clearfix">
+      <div class="iconBlock pull-left">
+        <img src="i/icon_if.png" alt="">
+      </div>
+      <div class="textBlock pull-right">
+        <h1 class="mgt20 mgb15 font24 lineheight150">もし現実的な悩みや問題を抱えていたら、<br>
+          下記のリンクを参考にしてみて下さい。</h1>
+      </div>
+    </header>
+    <ul class="column3 mgb50">
+      <li>
+        <h2 class="color font18 mgb15">『TEL』よりそいホットライン</h2>
+        <p>仕事、生活、家庭、心、お金、病気の悩み、DVや性暴力、セクシャルマイノリティ、自殺など色々な問題について、電話相談員が一緒に解決方法を考えてくれます。音声ガイダンスに従い、自分にぴったり合う相談内容を選んで下さい<br>
+          <span class="color">0120 - 279 - 338</span>
+        </p>
+      </li>
+      <li>
+        <h2 class="color font18 mgb15">そのあとに起こること。</h2>
+      <p>家族を亡くした時、犯罪被害にあったときなどの悩みの内容、地域や営業時間など、支援組織をインターネットで検索する事ができます。<br><span><a href="http://monosp.com/" target="_blank">http://monosp.com/</a></span></p>
+      </li>
+      <li>
+        <h2 class="color font18 mgb15">周囲との関係で変わること。</h2>
+        <p>家族を亡くした時、犯罪被害にあったときなどの悩みの内容、地域や営業時間など、支援組織をインターネットで検索する事ができます。<br><span><a href="http://monosp.com/" target="_blank">http://monosp.com/</a></span></p>
+      </li>
+    </ul>
+    <div>
+      <h2 class="color font18 mgb15">『TEL』『対面』総合労働相談</h2>
+      <p>借金、離婚などの法的トラブルを抱えてしまったとき、こうした問題解決への「道案内」をするのが法テラスです。無料相談や弁護士費用の立て替えも行っています。</p>
+      <a href="" target="_blank">http://monosp.com/</a>
+    </div>
+  </section>
 </div>
-
-
 
 <footer id="checkFooter">
   <div class="innerContents wrapper clearfix">
