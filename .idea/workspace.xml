@@ -21,84 +21,55 @@
     <favorites_list name="u2ppo" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.tmp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/index.tmp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="59" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="send.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/send.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="410" selection-end="471" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#6#43#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="send.tmp" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/send.tmp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="35" selection-start="362" selection-end="362" vertical-scroll-proportion="0.27842227">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="comp.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/comp.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="30" selection-start="807" selection-end="807" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#6#43#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="comp.tmp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/comp.tmp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="20" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Mail.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/pear/Mail.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="152" column="28" selection-start="5562" selection-end="5562" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="initialize.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/initialize.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.625">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/www/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="127" column="21" selection-start="5523" selection-end="5523" vertical-scroll-proportion="0.28444445">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/www/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="35" column="14" selection-start="1897" selection-end="1897" vertical-scroll-proportion="-5.12">
+                  <folding>
+                    <marker date="1336985656000" expanded="true" signature="2266:2506" placeholder="..." />
+                    <marker date="1336985656000" expanded="true" signature="2543:2950" placeholder="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="style.less" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/www/less/style.less">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="23" column="18" selection-start="652" selection-end="652" vertical-scroll-proportion="-1.2914798">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="style.less" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/PhpstormProjects/gakusei/less/style.less">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="147" column="0" selection-start="3074" selection-end="3074" vertical-scroll-proportion="-24.576923">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -120,14 +91,16 @@
         <option value="$PROJECT_DIR$/www/comp.php" />
         <option value="$PROJECT_DIR$/templates/comp.tmp" />
         <option value="$PROJECT_DIR$/templates/send.tmp" />
+        <option value="$PROJECT_DIR$/www/less/style.less" />
+        <option value="$PROJECT_DIR$/www/index.html" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1920" />
-    <option name="height" value="1010" />
+    <option name="width" value="1440" />
+    <option name="height" value="874" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -155,16 +128,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -180,6 +143,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="u2ppo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="u2ppo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="u2ppo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -217,44 +194,35 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PublishConfig" serverName="u2ppo" serverId="4404b853-8a64-483c-a9eb-4c41a25916a7" autoUpload="true">
     <servers>
-      <server id="4404b853-8a64-483c-a9eb-4c41a25916a7">
-        <serverdata>
-          <mappings>
-            <mapping deploy="/" local="$PROJECT_DIR$" />
-          </mappings>
-        </serverdata>
+      <server id="2ef3b39c-3192-42a9-8c2c-3edf9dfdac94">
+        <serverdata />
       </server>
-      <server id="670a4abb-ace8-43c6-84ac-e25bec031e0c">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" />
-          </mappings>
-        </serverdata>
+      <server id="a8fd29f5-87c8-4e45-a431-1bf36b2a67ef">
+        <serverdata />
       </server>
-      <server id="a8f05164-974d-417c-aff8-e02d21baef7e">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" />
-          </mappings>
-        </serverdata>
-      </server>
-      <server id="f8245767-7bba-4296-8a09-f3fee991c993">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" />
-          </mappings>
-        </serverdata>
+      <server id="ab92cb3a-5424-42db-8269-87ae582ddd39">
+        <serverdata />
       </server>
     </servers>
   </component>
@@ -270,13 +238,6 @@
         <option name="PhingTarget" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
-      <method />
-    </configuration>
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method>
         <option name="FtpUpload" enabled="false">
@@ -285,6 +246,13 @@
         </option>
         <option name="PhingTarget" enabled="false" />
       </method>
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
     </configuration>
     <list size="0" />
   </component>
@@ -316,25 +284,25 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1920" height="1010" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="22" width="1440" height="874" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295838" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25506938" sideWeight="0.6704162" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13342898" sideWeight="0.66401064" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13342898" sideWeight="0.32669324" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295838" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -374,7 +342,7 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="CREATE_PATCH_EXPAND_DETAILS_DEFAULT" value="true" />
     <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
-    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
     <option name="LAST_COMMIT_MESSAGE" />
@@ -397,81 +365,86 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.htpasswd">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="19" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="19" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="15" selection-start="145" selection-end="145" vertical-scroll-proportion="0.07424594">
-          <folding />
-        </state>
+        <state line="4" column="15" selection-start="145" selection-end="145" vertical-scroll-proportion="0.07424594" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.tmp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="59" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/comp.tmp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="20" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/send.tmp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="35" selection-start="362" selection-end="362" vertical-scroll-proportion="0.27842227" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/initialize.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0">
+        <state line="6" column="0" selection-start="199" selection-end="199" vertical-scroll-proportion="0.1322314">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/pear/Mail.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="152" column="28" selection-start="5562" selection-end="5562" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.tmp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="59" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/comp.tmp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="20" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0">
+        <state line="152" column="28" selection-start="5562" selection-end="5562" vertical-scroll-proportion="0.022038568">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/comp.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="30" selection-start="807" selection-end="807" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#6#43#0" expanded="true" />
-          </folding>
+        <state line="41" column="29" selection-start="838" selection-end="838" vertical-scroll-proportion="0.77134985">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/send.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="410" selection-end="471" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#6#43#0" expanded="true" />
-          </folding>
+        <state line="25" column="0" selection-start="410" selection-end="471" vertical-scroll-proportion="0.4187328">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/send.tmp">
+    <entry file="file://$PROJECT_DIR$/www/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="35" selection-start="362" selection-end="362" vertical-scroll-proportion="0.27842227">
+        <state line="21" column="0" selection-start="361" selection-end="361" vertical-scroll-proportion="0.3305785">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PhpstormProjects/gakusei/less/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="147" column="0" selection-start="3074" selection-end="3074" vertical-scroll-proportion="-24.576923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/less/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="18" selection-start="652" selection-end="652" vertical-scroll-proportion="-1.2914798">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="127" column="21" selection-start="5523" selection-end="5523" vertical-scroll-proportion="0.28444445">
           <folding />
         </state>
       </provider>
