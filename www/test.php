@@ -2,7 +2,7 @@
 /**
  *
  *u2ppo
- *check
+ *test
  *@tsuru
  *
  */
@@ -22,6 +22,15 @@ $smarty->compile_dir  = __DIR__ . '/../var/tmp_c/';
 
 require_once (__DIR__ . '/../lib/func.php');
 require_once ( __DIR__ . '/../initialize.php');
-;
 
-$smarty->display('check.tmp');
+$error = null;
+
+session_start();
+session_regenerate_id();
+if($_SESSION['error']){
+    $error = $_SESSION['error'];
+    session_destroy();
+}
+
+$smarty->assign("error",$error);
+$smarty->display('test.tmp');

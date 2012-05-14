@@ -35,10 +35,9 @@
     fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
-<header id="checkHeader" class="mgb100 pdb30" role="header">
+<header id="checkHeader" class="mgb100" role="header">
     <div class="innerContents wrapper">
-        <h1><img src="i/stresscheck_keyvisual.png" alt="ストレスチェック"></h1>
-        <p class="startBtn"><a href="/test.php"><img src="i/startbtn.png" alt="診断スタート"></a></p>
+        <h1><img src="i/stresscheck_keyvisual02.png" alt="ストレスチェック"></h1>
     </div>
     <!--
   <div class="headerContents ">
@@ -55,57 +54,69 @@
     -->
 </header>
 
+<%$error%>
 
-<section id="question01" class="wrapper mgb100">
-    <header class="mgb30 clearfix">
-        <div class="iconBlock pull-left">
-            <img src="i/icon_question.png" alt="">
-        </div>
-        <div class="textBlock pull-right">
-            <h1 class="mgt10 mgb15 font24 color">身近にこんな様子をした人はいませんか？</h1>
-            <p>もし見かけたら、それはうつ予備軍の可能性があります。<br>
-                「友人や家族などの大切な人を、うつ病で悩む前に救ってあげたい」うつっぽは、そんな想いから誕生した匿名通知サービスです。</p>
-        </div>
-    </header>
-    <ul class="thumbContainer mgb50">
-        <li><img src="i/question_img01.png" alt="">外に出ずひたすら眠り続けている</li>
-        <li><img src="i/question_img02.png" alt="">疲れているのにいつも寝れなそう</li>
-        <li><img src="i/question_img03.png" alt="">まじめな人が遅刻しがちになった</li>
-        <li class="last"><img src="i/question_img04.png" alt="">消えたいなどのネガティブツイート</li>
-    </ul>
-    <p class="font24 lineheight150">
-        うつ病はなってからでは対処が遅く、早い段階からの治療が必要です。<br>
-        しかし、自分ではなかなか分からない。<br>
-        まずはうつっぽを使って、自分のうつ状況を調べてみましょう！
-    </p>
-    <p class="wrapper mgt30"><a href="/test.php"><img src="i/startbtn_blue.png" alt="診断スタート"></a></p>
-</section>
+<div class="checkBlock wrapper mgb100">
+    <form action="/answer.php" method="post">
+        <p class="mgb50">過去１ヶ月、あなたがどの様に感じていたかについておたずねします。<br>
+            それぞれの質問に対して、そういう気持ちをどれくらいの頻度で感じていたか、<br>
+            １番あてはまるものをひとつ選んで下さい。</p>
+        <fieldset class="mgb50">
+            <label class="color font24">神経過敏に感じましたか？</label>
+            <ul class="clearfix">
+                <li><input type="radio" name="q1" value="0"><span>いつも</span></ll>
+                <li><input type="radio" name="q1" value="1"><span>たいてい</span></ll>
+                <li><input type="radio" name="q1" value="2"><span>ときどき</span></ll>
+                <li><input type="radio" name="q1" value="3"><span>少しだけ</span></ll>
+                <li><input type="radio" name="q1" value="4"><span>全くない</span></ll>
+            </ul>
+        </fieldset>
+        <fieldset class="mgb50">
+            <label class="color font24">絶望的だと感じましたか？</label>
+            <ul class="clearfix">
+                <li><input type="radio" name="q2" value="0"><span>いつも</span></ll>
+                <li><input type="radio" name="q2" value="1"><span>たいてい</span></ll>
+                <li><input type="radio" name="q2" value="2"><span>ときどき</span></ll>
+                <li><input type="radio" name="q2" value="3"><span>少しだけ</span></ll>
+                <li><input type="radio" name="q2" value="4"><span>全くない</span></ll>
+            </ul>
+        </fieldset>
+        <fieldset class="mgb50">
+            <label class="color font24">そわそわしたり、落ち着きなく感じましたか？</label>
+            <ul class="clearfix">
+                <li><input type="radio" name="q3" value="0"><span>いつも</span></ll>
+                <li><input type="radio" name="q3" value="1"><span>たいてい</span></ll>
+                <li><input type="radio" name="q3" value="2"><span>ときどき</span></ll>
+                <li><input type="radio" name="q3" value="3"><span>少しだけ</span></ll>
+                <li><input type="radio" name="q3" value="4"><span>全くない</span></ll>
+            </ul>
+        </fieldset>
+        <fieldset class="mgb50">
+            <label class="color font24">気分が沈み込んで、何が起こっても気が晴れない様に感じましたか？</label>
+            <ul class="clearfix">
+                <li><input type="radio" name="q4" value="0"><span>いつも</span></ll>
+                <li><input type="radio" name="q4" value="1"><span>たいてい</span></ll>
+                <li><input type="radio" name="q4" value="2"><span>ときどき</span></ll>
+                <li><input type="radio" name="q4" value="3"><span>少しだけ</span></ll>
+                <li><input type="radio" name="q4" value="4"><span>全くない</span></ll>
+            </ul>
+        </fieldset>
+        <fieldset class="mgb50">
+            <label class="color font24">何をするのも骨折りだと感じましたか？</label>
+            <ul class="clearfix">
+                <li><input type="radio" name="q5" value="0"><span>いつも</span></ll>
+                <li><input type="radio" name="q5" value="1"><span>たいてい</span></ll>
+                <li><input type="radio" name="q5" value="2"><span>ときどき</span></ll>
+                <li><input type="radio" name="q5" value="3"><span>少しだけ</span></ll>
+                <li><input type="radio" name="q5" value="4"><span>全くない</span></ll>
+            </ul>
+        </fieldset>
+        <p class="lineheight150 mgb20">以上で質問は完了です。<br>
+            下のボタンを押して、あなたの診断結果を見てみましょう！</p>
 
-
-<section id="attention01" class="wrapper mgb100">
-    <header class="mgb30 clearfix">
-        <div class="iconBlock pull-left">
-            <img src="i/icon_attention.png" alt="">
-        </div>
-        <div class="textBlock pull-right">
-            <h1 class="mgt40 mgb25 font24 color">補足：うつ病になるとどの様な症状が起こってしまうの？</h1>
-        </div>
-    </header>
-    <ul class="column3 mgb90">
-        <li>
-            <h2 class="color font18 mgb15">本人に起こること。</h2>
-            <p>落ち込み、絶望感などがつきまといます。また、頭や体もつらくなります。いつもより集中できなかったり、よく眠れないまたは眠りすぎてしまうことも。その結果、仕事や家事、勉強ができなくなることがあります。</p>
-        </li>
-        <li>
-            <h2 class="color font18 mgb15">そのあとに起こること。</h2>
-            <p>うつ病になると、多くの心配を抱えるでしょう。治療費がかかり、お金が心配になります。休職や休学した人は、会社や学校に戻れるか不安になります。取り残されている感じ、誰かに迷惑をかけている気持ちになります。</p>
-        </li>
-        <li>
-            <h2 class="color font18 mgb15">周囲との関係で変わること。</h2>
-            <p>会話の内容がつらいことばかりになり、楽しい時間を共有できなくなくなりがちです。体調によって急に予定を変えたくなるので、気分屋に見えたりも。怒りっぽくなったり、依存的になったりすることもあります。</p>
-        </li>
-    </ul>
-</section>
+        <input class="onMouseOver" type="image" src="i/check_submitbtn.png">
+    </form>
+</div>
 
 
 
