@@ -65,17 +65,30 @@
           <file leaf-file-name="index06.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/www/index06.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="68" column="44" selection-start="3320" selection-end="3320" vertical-scroll-proportion="2.04">
+                <state line="99" column="12" selection-start="4700" selection-end="4700" vertical-scroll-proportion="2.08">
+                  <folding>
+                    <element signature="tag#section#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index06-03.html" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/www/index06-03.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="103" column="0" selection-start="4877" selection-end="4877" vertical-scroll-proportion="0.6701031">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index06-02.html" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="index06-02.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/www/index06-02.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="63" column="43" selection-start="3157" selection-end="3157" vertical-scroll-proportion="0.269514">
-                  <folding />
+                <state line="94" column="0" selection-start="4455" selection-end="4455" vertical-scroll-proportion="5.44">
+                  <folding>
+                    <element signature="tag#section#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -96,10 +109,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="style.less" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="style.less" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/www/less/style.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="219" column="23" selection-start="4593" selection-end="4593" vertical-scroll-proportion="0.82810163">
+                <state line="286" column="21" selection-start="5489" selection-end="5489" vertical-scroll-proportion="4.8944283">
                   <folding />
                 </state>
               </provider>
@@ -126,7 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/templates/add.tmp" />
         <option value="$PROJECT_DIR$/www/send.php" />
         <option value="$PROJECT_DIR$/www/index.php" />
         <option value="$PROJECT_DIR$/initialize.php" />
@@ -139,9 +151,10 @@
         <option value="$PROJECT_DIR$/www/index03.html" />
         <option value="$PROJECT_DIR$/www/index04.html" />
         <option value="$PROJECT_DIR$/www/index05.html" />
-        <option value="$PROJECT_DIR$/www/index06.html" />
-        <option value="$PROJECT_DIR$/www/index06-02.html" />
         <option value="$PROJECT_DIR$/www/less/style.less" />
+        <option value="$PROJECT_DIR$/www/index06-02.html" />
+        <option value="$PROJECT_DIR$/www/index06.html" />
+        <option value="$PROJECT_DIR$/www/index06-03.html" />
       </list>
     </option>
   </component>
@@ -417,11 +430,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/comp.tmp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="20" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/send.tmp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="35" selection-start="362" selection-end="362" vertical-scroll-proportion="0.27842227" />
@@ -502,13 +510,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/index06.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="44" selection-start="3320" selection-end="3320" vertical-scroll-proportion="2.04">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/index04.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="23" selection-start="1947" selection-end="1958" vertical-scroll-proportion="-2.372549">
@@ -518,14 +519,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/index06-02.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="43" selection-start="3157" selection-end="3157" vertical-scroll-proportion="0.269514">
-          <folding />
+        <state line="94" column="0" selection-start="4455" selection-end="4455" vertical-scroll-proportion="5.44">
+          <folding>
+            <element signature="tag#section#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/index06.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="99" column="12" selection-start="4700" selection-end="4700" vertical-scroll-proportion="2.08">
+          <folding>
+            <element signature="tag#section#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/less/style.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="219" column="23" selection-start="4593" selection-end="4593" vertical-scroll-proportion="0.82810163">
+        <state line="286" column="21" selection-start="5489" selection-end="5489" vertical-scroll-proportion="4.8944283">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/index06-03.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="0" selection-start="4877" selection-end="4877" vertical-scroll-proportion="0.6701031">
           <folding />
         </state>
       </provider>

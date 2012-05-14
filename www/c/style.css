@@ -667,13 +667,19 @@ section .column3 li {
 .checkResult section {
   text-align: left;
 }
-#if01 header {
+#if01 header,
+#a01 header {
   width: 620px;
   margin-left: auto;
   margin-right: auto;
 }
-#if01 header .textBlock {
+#if01 header .textBlock,
+#a01 header .textBlock {
   width: 500px;
+}
+#if01 .column3 h2,
+#a01 .column3 h2 {
+  letter-spacing: -0.06em;
 }
 footer {
   padding: 30px 0;
